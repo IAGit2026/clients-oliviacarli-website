@@ -1,34 +1,38 @@
-# Olivia Carli — Static Site
+# Olivia Carli — Multi-Page Site
 
-Single-page site. Eight sections (Home, Philosophy, The Lineage, The Path, About,
-Love Notes, Living Ceremony, Empower Thyself) that switch via JavaScript tabs — no
-page reloads, no routing. No build step, no dependencies. Deploys as-is to Cloudflare
-Pages, Vercel, or any static host with the repo root as the publish directory.
+Eight standalone pages, each with its own shareable URL. Converted from the earlier
+single-page (JS-tab) version so every section can be linked and shared individually.
 
-Target domain: **oliviacarli.com** (confirmed). Canonical, og:url, absolute og:image,
-sitemap.xml, and robots.txt are all set to that domain.
+## Pages / URLs
+| Page | File | URL |
+|---|---|---|
+| Home | index.html | oliviacarli.com/ |
+| Philosophy | philosophy.html | oliviacarli.com/philosophy.html |
+| The Lineage | the-lineage.html | oliviacarli.com/the-lineage.html |
+| The Path | the-path.html | oliviacarli.com/the-path.html |
+| About | about.html | oliviacarli.com/about.html |
+| Love Notes | love-notes.html | oliviacarli.com/love-notes.html |
+| Living Ceremony | living-ceremony.html | oliviacarli.com/living-ceremony.html |
+| Empower Thyself | empower-thyself.html | oliviacarli.com/empower-thyself.html |
 
-`assets/img/` holds all 38 images (content-hashed filenames, safe to cache forever).
+## What changed from the single-page version
+- Each of the 8 tab-sections is now its own HTML file with a clean slug.
+- The shared shell (head + CSS + nav + footer) is carried onto every page, so all
+  pages look identical to the live site.
+- JS tab-switching (data-go / .visible) replaced with real <a href> navigation.
+  The nav highlights the current page.
+- The obsolete tab script was removed; the testimonial slider and mobile menu were
+  null-guarded so they run only on pages that contain them (no JS errors anywhere).
+- Per-page <title>, canonical, and og:url set to each page's own URL. sitemap.xml
+  lists all 8.
+- All asset paths, the Acuity booking link (oliviacarli.as.me/clarityconsult), and
+  mailto:hello@oliviacarli.com resolve on every page.
 
-## What was done to the source file
+## Verified
+All 8 pages: render fully styled standalone, 0 JS errors, 0 broken asset requests,
+every nav link resolves to a real file.
 
-- **Embedded images extracted.** All 42 base64 data-URIs pulled to real files,
-  deduplicated to 38 uniques. HTML went from 4.4 MB to 165 KB.
-- **SEO/social metadata added.** Open Graph, Twitter Card, and canonical tags
-  (the source already had a description; it was kept).
-- **Lazy loading added** to below-the-fold images.
-- **sitemap.xml + robots.txt added.**
-
-Visual design was not altered. The tab navigation was verified working across all
-eight sections after every change.
-
-## What was already correct in the source (left as-is)
-
-- Booking CTAs point to a real Acuity link: `oliviacarli.as.me/clarityconsult`
-- Contact is a working `mailto:hello@oliviacarli.com`
-- Lineage links to Modern Mystery School are legitimate external references
-
-## Notes
-
-- **No forms** on the site, so no form receiver / capture wiring is needed.
-- The booking flow relies entirely on the external Acuity link — nothing to build there.
+## Deploy
+Upload all 8 .html files + the assets/ folder + sitemap.xml + robots.txt to the repo
+ROOT (same repo: IAGit2026/clients-oliviacarli-website). This replaces the single
+index.html with the 8-page version. Hard-refresh each URL in Incognito after upload.
