@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Philosophy | Olivia Carli</title>
-<meta name="description" content="The philosophy behind Olivia Carli's work — wisdom, self-mastery, and living a meaningful life.">
-<link rel="canonical" href="https://oliviacarli.com/philosophy.html">
+<title>The Calling | Olivia Carli</title>
+<meta name="description" content="The Calling — answer the call to a deeper, more meaningful life with Olivia Carli.">
+<link rel="canonical" href="https://oliviacarli.com/the-calling.html">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://oliviacarli.com/philosophy.html">
+<meta property="og:url" content="https://oliviacarli.com/the-calling.html">
 <meta property="og:site_name" content="Olivia Carli">
-<meta property="og:title" content="Philosophy | Olivia Carli">
-<meta property="og:description" content="The philosophy behind Olivia Carli's work — wisdom, self-mastery, and living a meaningful life.">
-<meta property="og:image" content="https://oliviacarli.com/assets/img/img-1b1c4c6787.jpg">
+<meta property="og:title" content="The Calling | Olivia Carli">
+<meta property="og:description" content="The Calling — answer the call to a deeper, more meaningful life with Olivia Carli.">
+<meta property="og:image" content="https://oliviacarli.com/assets/img/img-e516ee97e0.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
 <link href="assets/img/img-59d9f8597c.png" rel="icon" type="image/png"/>
-<meta content="Olivia Carli is a Spiritual Guide, teacher and healer helping people cultivate wisdom, practice self-mastery, and create meaningful lives." name="description"/>
+<meta content="The Calling is a 90-day initiatory journey for people ready to move beyond seeking and into deeper self-knowledge, self-mastery, spiritual training and meaningful service. With Olivia Carli." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
@@ -2758,6 +2758,674 @@ a:focus-visible,button:focus-visible{outline-color:var(--rose)}
 .band.dark .subhead::after{background:var(--line-light)}
 
 </style>
+<style>
+/* ============================================================================
+   THE CALLING :: page-specific styles
+
+   These styles are inlined here rather than kept in a separate file, so this
+   page is self-contained apart from the site's shared styles.css.
+
+   Every rule is scoped to #calling, so nothing here can affect another page.
+
+   Colour and font values reference the site's own custom properties with a
+   fallback, e.g. var(--gold, #6B222B). If styles.css defines the property,
+   styles.css wins; the fallback only applies if it does not exist.
+   ========================================================================== */
+
+#calling{
+  --tc-display: var(--display, "Playfair Display", Georgia, "Times New Roman", serif);
+  --tc-serif:   var(--serif, "Cormorant Garamond", Georgia, "Times New Roman", serif);
+  --tc-sans:    var(--sans, "Jost", "Futura", "Century Gothic", system-ui, sans-serif);
+  --tc-gold:      var(--gold, #6B222B);
+  --tc-gold-deep: var(--gold-deep, #4E1A22);
+  --tc-gold-lt:   var(--gold-light, #C4A199);
+  --tc-ink:       var(--ink, #1E0F13);
+  --tc-ink-soft:  var(--ink-soft, #6A5450);
+  --tc-light:     var(--light, #F6F1E9);
+  --tc-cream:     var(--cream, #EBE3D6);
+  --tc-cream2:    var(--cream2, #E1D6C6);
+  --tc-dark:      var(--dark, #1E0F13);
+  --tc-line:      var(--line, rgba(146,116,79,.24));
+  --tc-line-lt:   var(--line-light, rgba(203,175,134,.28));
+  --tc-on-dark:   #A8908B;
+  --tc-on-dark-2: #C6ADA8;
+  --tc-measure:   63ch;
+}
+
+/* ---------------------------------------------------------- utilities ---- */
+#calling .center{text-align:center}
+#calling .stack{display:flex;flex-direction:column;gap:22px}
+#calling .stack.tight{gap:12px}
+#calling .stack.loose{gap:34px}
+#calling .quiet{color:var(--tc-ink-soft)}
+#calling .band.dark .quiet{color:var(--tc-on-dark)}
+#calling .rule.center{margin-left:auto;margin-right:auto}
+#calling .cta-note{
+  font-family:var(--tc-sans);font-size:11.5px;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--tc-ink-soft);margin-top:18px;
+}
+#calling .band.dark .cta-note{color:#C0A9A4}
+#calling .band.dark.wine .cta-note{color:#DCC0BA}
+#calling a:focus-visible,
+#calling button:focus-visible{outline:2px solid var(--tc-gold-lt);outline-offset:4px}
+
+/* -------------------------------------------------------------- hero ---- */
+#calling .hero{min-height:88vh;display:flex;align-items:center;padding:clamp(90px,12vw,150px) 24px}
+#calling .hero h1{font-size:clamp(46px,7.4vw,104px);line-height:1.02}
+#calling .hero .kicker{
+  font-family:var(--tc-sans);text-transform:uppercase;letter-spacing:.3em;
+  font-size:11.5px;color:var(--tc-gold-lt);
+}
+
+/* --------------------------------------------------- aspiration list ---- */
+#calling .give{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:2px}
+#calling .give li{
+  font-family:var(--tc-display);font-size:clamp(21px,2.1vw,30px);line-height:1.5;
+  padding:10px 0;border-bottom:1px solid var(--tc-line);
+}
+#calling .give li:last-child{border-bottom:0}
+#calling .give li span{
+  color:var(--tc-gold);font-family:var(--tc-sans);font-size:11px;letter-spacing:.2em;
+  vertical-align:middle;display:inline-block;width:34px;
+}
+
+/* ------------------------------------------------------------ voices ---- */
+#calling .voices{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1px;background:var(--tc-line);border:1px solid var(--tc-line);
+}
+#calling .voices blockquote{
+  margin:0;background:var(--tc-cream);padding:30px 28px;font-family:var(--tc-display);
+  font-style:italic;font-size:19px;line-height:1.5;color:var(--tc-ink);
+}
+#calling .band.cream2 .voices blockquote{background:var(--tc-cream2)}
+/* nine statements sit evenly in three columns; four would leave a gap */
+@media(min-width:920px){#calling .voices{grid-template-columns:repeat(3,1fr)}}
+
+/* ------------------------------------------------------------- chips ---- */
+#calling .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+#calling .chips span{
+  font-family:var(--tc-sans);font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+  padding:9px 16px;border:1px solid rgba(203,175,134,.3);color:var(--tc-on-dark-2);
+}
+/* the chips were written for dark grounds; give them a light-ground reading */
+#calling .band:not(.dark) .chips span{border-color:var(--tc-line);color:var(--tc-ink)}
+
+/* --------------------------------------------- ledger (against / for) ---- */
+#calling .ledger{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:0 clamp(18px,3vw,44px)}
+#calling .ledger .lhead{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.28em;
+  text-transform:uppercase;padding-bottom:16px;
+}
+#calling .ledger .lhead.a{text-align:right;color:var(--tc-ink-soft)}
+#calling .ledger .lhead.b{color:var(--tc-gold)}
+#calling .ledger .a-cell,
+#calling .ledger .b-cell{
+  padding:13px 0;border-top:1px solid var(--tc-line);
+  font-family:var(--tc-display);font-size:clamp(18px,1.7vw,23px);
+}
+#calling .ledger .a-cell{
+  text-align:right;color:var(--tc-ink-soft);text-decoration:line-through;
+  text-decoration-color:rgba(146,116,79,.45);text-decoration-thickness:1px;
+}
+#calling .ledger .b-cell{color:var(--tc-ink)}
+#calling .ledger .arrow{
+  border-top:1px solid var(--tc-line);padding:13px 0;color:var(--tc-gold);
+  font-family:var(--tc-sans);font-size:13px;
+}
+#calling .ledger .spacer{padding-bottom:16px}
+@media(max-width:620px){
+  #calling .ledger{grid-template-columns:1fr;gap:0}
+  #calling .ledger .lhead,
+  #calling .ledger .arrow{display:none}
+  #calling .ledger .a-cell{text-align:left;border-top:1px solid var(--tc-line);padding-bottom:2px}
+  #calling .ledger .b-cell{border-top:0;padding-top:2px;padding-bottom:15px}
+  #calling .ledger .b-cell::before{content:"→ ";color:var(--tc-gold)}
+}
+
+/* -------------------------------------------------------- four faces ---- */
+#calling .faces{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:34px}
+#calling .face .fnum{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.26em;
+  color:var(--tc-gold-lt);display:block;margin-bottom:12px;
+}
+#calling .face h3{font-size:clamp(20px,1.8vw,25px);margin-bottom:9px}
+#calling .face p{color:var(--tc-on-dark);font-size:17px;line-height:1.6}
+
+/* ------------------------------------------------------------- triad ---- */
+#calling .triad{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:2px;background:var(--tc-line)}
+#calling .triad div{background:var(--tc-cream);padding:34px 26px;text-align:center}
+#calling .band.cream2 .triad div{background:var(--tc-cream2)}
+#calling .triad .t-lab{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--tc-gold);display:block;margin-bottom:14px;
+}
+#calling .triad .t-word{font-family:var(--tc-display);font-size:clamp(25px,2.5vw,36px);display:block;line-height:1.15}
+#calling .triad .t-sub{display:block;margin-top:12px;font-size:16.5px;color:var(--tc-ink-soft);line-height:1.55}
+
+/* ---------------------------------------------------------- reframes ---- */
+#calling .reframes{display:flex;flex-direction:column;gap:0}
+#calling .reframe{padding:26px 0;border-top:1px solid var(--tc-line)}
+#calling .reframe:last-child{border-bottom:1px solid var(--tc-line)}
+#calling .reframe .r-neg{
+  font-family:var(--tc-sans);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--tc-ink-soft);display:block;margin-bottom:9px;
+}
+#calling .reframe .r-pos{font-family:var(--tc-display);font-size:clamp(19px,1.8vw,25px);line-height:1.42}
+#calling .reframe .r-pos b{font-weight:400;color:var(--tc-gold-deep);font-style:italic}
+
+/* ------------------------------------------------------------ months ---- */
+#calling .months{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(20px,3vw,40px)}
+#calling .month{padding-top:22px;border-top:2px solid var(--tc-gold)}
+#calling .month .m-lab{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--tc-gold);display:block;margin-bottom:10px;
+}
+#calling .month h3{font-size:clamp(24px,2.2vw,32px)}
+#calling .month p{margin-top:10px;color:var(--tc-ink-soft);font-size:17px;line-height:1.6}
+
+/* --------------------------------------- five movements (accordion) ---- */
+#calling .moves{display:flex;flex-direction:column;gap:14px}
+#calling .move{border:1px solid var(--tc-line);background:var(--tc-cream)}
+#calling .band.cream2 .move{background:var(--tc-cream2)}
+#calling .move-head{
+  width:100%;display:flex;align-items:center;gap:22px;text-align:left;cursor:pointer;
+  background:transparent;border:0;padding:26px clamp(20px,3vw,34px);font:inherit;color:inherit;
+  transition:background .3s ease;
+}
+#calling .move-head:hover{background:rgba(146,116,79,.06)}
+#calling .move-num{font-family:var(--tc-sans);font-size:12px;letter-spacing:.2em;color:var(--tc-gold);min-width:26px}
+#calling .move-lab{flex:1;display:flex;flex-direction:column;gap:4px}
+#calling .move-name{font-family:var(--tc-display);font-size:clamp(24px,2.3vw,33px);line-height:1.1}
+#calling .move-sub{font-family:var(--tc-serif);font-size:17px;color:var(--tc-ink-soft);font-style:italic}
+#calling .move-tog{
+  font-family:var(--tc-sans);font-size:22px;font-weight:300;color:var(--tc-gold);
+  line-height:1;transition:transform .35s ease;
+}
+#calling .move[open] .move-tog{transform:rotate(45deg)}
+#calling .move-body{padding:0 clamp(20px,3vw,34px) 34px;max-width:var(--tc-measure)}
+#calling .move-body>*+*{margin-top:16px}
+#calling .move-body .principle{
+  border-left:2px solid var(--tc-gold);padding:4px 0 4px 20px;font-family:var(--tc-display);
+  font-style:italic;font-size:clamp(19px,1.7vw,23px);line-height:1.44;color:var(--tc-gold-deep);
+}
+#calling .move-body ul{
+  list-style:none;padding:0;margin:0;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0 26px;
+}
+#calling .move-body ul li{padding:9px 0;border-bottom:1px solid var(--tc-line);font-size:17px}
+#calling .move-body ul li::before{content:"·";color:var(--tc-gold);margin-right:10px}
+#calling .move-body .asks{display:block}
+#calling .move-body .asks li{
+  font-family:var(--tc-display);font-style:italic;font-size:19px;
+  border-bottom:1px solid var(--tc-line);padding:11px 0;
+}
+#calling .move-body .asks li::before{content:none}
+#calling details>summary{list-style:none}
+#calling details>summary::-webkit-details-marker{display:none}
+
+/* ---------------------------------------------------- what's included ---- */
+#calling .incl{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:rgba(203,175,134,.22)}
+#calling .incl article{background:var(--tc-dark);padding:32px 30px}
+#calling .incl .i-lab{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--tc-gold-lt);display:block;margin-bottom:14px;
+}
+#calling .incl h3{font-size:23px;margin-bottom:10px}
+#calling .incl p{color:var(--tc-on-dark);font-size:17px;line-height:1.6}
+#calling .incl ul{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-direction:column;gap:7px}
+#calling .incl ul li{color:var(--tc-on-dark-2);font-size:16.5px;line-height:1.5;padding-left:18px;position:relative}
+#calling .incl ul li::before{content:"·";position:absolute;left:2px;color:var(--tc-gold-lt)}
+
+/* --------------------------------------------------------------- arc ---- */
+#calling .arc{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:0}
+#calling .arc .step{padding:30px 26px 0;border-top:1px solid var(--tc-line);position:relative}
+#calling .arc .step::before{
+  content:"";position:absolute;top:-4px;left:26px;width:7px;height:7px;
+  border-radius:50%;background:var(--tc-gold);
+}
+#calling .arc .a-lab{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--tc-gold);display:block;margin-bottom:14px;
+}
+#calling .arc p{font-family:var(--tc-display);font-style:italic;font-size:19px;line-height:1.5}
+
+/* ------------------------------------------------------ for / not for ---- */
+#calling .fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(28px,4vw,60px)}
+#calling .fit h3{margin-bottom:20px}
+#calling .fit ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}
+#calling .fit li{
+  padding:12px 0;border-bottom:1px solid var(--tc-line);font-size:17.5px;line-height:1.55;
+  display:flex;gap:13px;align-items:baseline;
+}
+#calling .fit li .mk{font-family:var(--tc-sans);font-size:12px;color:var(--tc-gold);flex:none}
+#calling .fit .no li .mk{color:var(--tc-ink-soft)}
+#calling .fit .no li{color:var(--tc-ink-soft)}
+
+/* ------------------------------------------------------ how to enter ---- */
+#calling .apply{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:clamp(24px,3vw,44px);counter-reset:s}
+#calling .apply .s{counter-increment:s}
+#calling .apply .s::before{
+  content:counter(s,upper-roman);font-family:var(--tc-sans);font-size:11px;
+  letter-spacing:.24em;color:var(--tc-gold-lt);display:block;margin-bottom:14px;
+}
+#calling .apply h3{font-size:22px;margin-bottom:9px}
+#calling .apply p{color:var(--tc-on-dark);font-size:17px;line-height:1.6}
+
+/* ---------------------------------------------------------- portrait ---- */
+#calling .olivia{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(30px,5vw,70px);align-items:center}
+#calling .olivia .port{position:relative}
+#calling .olivia .port img{width:100%;height:auto;display:block;filter:saturate(.92)}
+#calling .olivia .port::after{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--tc-line);z-index:-1}
+@media(max-width:760px){#calling .olivia{grid-template-columns:1fr}}
+
+/* ------------------------------------------------------ small screens ---- */
+@media(max-width:520px){
+  #calling .hero{min-height:78vh}
+  #calling .hero .kicker{letter-spacing:.18em;font-size:10.5px;line-height:2}
+  #calling .move-head{gap:14px;padding:22px 20px}
+  #calling .move-body ul{grid-template-columns:1fr}
+  #calling .chips span{font-size:11px;padding:8px 13px}
+  #calling .give li span{width:26px}
+}
+
+/* =========================================================================
+   PHOTOGRAPHY
+   The image components used through the page. Everything is object-fit
+   cropped so the art direction holds at any width, and every photograph
+   carries a rule or a veil so type stays legible over it.
+   ========================================================================= */
+
+/* ---- the regal inset frame, over a full-bleed photograph -------------- */
+#calling .frame{position:absolute;inset:clamp(16px,2vw,32px);z-index:1;pointer-events:none;
+  border:1px solid rgba(214,180,172,.30)}
+#calling .frame::before{content:"";position:absolute;inset:5px;
+  border:1px solid rgba(214,180,172,.15)}
+#calling .hero .wrap,
+#calling .band .frame ~ .wrap{z-index:2}
+
+/* the hero carries a photograph, so the type is given a little more weight */
+#calling .hero .kicker{color:#E4CBC5}
+#calling .hero h1,#calling .hero .lead{text-shadow:0 2px 30px rgba(20,8,11,.5)}
+
+/* ---- a framed photograph, offset rule behind it ------------------------ */
+#calling .plate{position:relative;display:block;margin:0;isolation:isolate}
+#calling .plate img{position:relative;z-index:1;width:100%;height:auto;display:block;filter:saturate(.94)}
+#calling .plate::after{content:"";position:absolute;inset:15px -15px -15px 15px;
+  border:1px solid var(--tc-line);z-index:0}
+#calling .band.dark .plate::after{border-color:rgba(196,161,153,.34)}
+#calling .plate.tall img{aspect-ratio:3/4;object-fit:cover}
+
+/* ---- text beside a photograph ------------------------------------------ */
+#calling .figrow{display:grid;grid-template-columns:1fr 1fr;
+  gap:clamp(30px,5vw,72px);align-items:center}
+#calling .figrow.flip .fig{order:-1}
+@media(max-width:820px){
+  #calling .figrow{grid-template-columns:1fr;gap:34px}
+  #calling .figrow.flip .fig{order:0}
+}
+
+/* ---- a row of photographs ---------------------------------------------- */
+#calling .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(10px,1.5vw,18px)}
+#calling .strip figure{margin:0;overflow:hidden;position:relative}
+#calling .strip img{display:block;width:100%;height:100%;object-fit:cover;
+  aspect-ratio:3/4;filter:saturate(.93);
+  transition:transform 1.2s cubic-bezier(.22,.61,.36,1)}
+#calling .strip figure:hover img{transform:scale(1.04)}
+@media(max-width:760px){
+  #calling .strip{grid-template-columns:1fr}
+  #calling .strip img{aspect-ratio:4/3}
+}
+
+/* ---- a full-width photograph carrying one line of type ----------------- */
+#calling .plateband{padding:0;overflow:hidden}
+#calling .interlude{position:relative;min-height:clamp(300px,48vh,520px);
+  display:flex;align-items:center;justify-content:center;
+  padding:clamp(58px,8vw,108px) 24px;text-align:center}
+#calling .interlude img.bg{position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;z-index:0}
+#calling .interlude .veil{position:absolute;inset:0;z-index:1;pointer-events:none}
+#calling .interlude .inner{position:relative;z-index:2;max-width:min(720px,90%)}
+#calling .interlude .inner.wide{max-width:min(880px,90%)}
+#calling .interlude .inner.wide .say{font-size:clamp(23px,2.7vw,37px)}
+#calling .interlude .say{
+  font-family:var(--tc-display);font-style:italic;
+  font-size:clamp(26px,3.4vw,46px);line-height:1.28;color:#F4EBE4;
+  text-shadow:0 2px 26px rgba(20,8,11,.55);margin:0}
+#calling .interlude .eyebrow{color:#E6CCC5;margin:0 0 18px}
+
+/* ---- a small caption under a photograph -------------------------------- */
+#calling .cap{
+  font-family:var(--tc-sans);font-size:10px;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--tc-ink-soft);margin-top:16px}
+#calling .band.dark .cap{color:#B49B96}
+
+/* Cherry Velvet is a lighter ground than Black Cherry Ink, so the muted
+   body tones are lifted on the wine bands to keep every line readable. */
+#calling .band.dark.wine{--tc-on-dark:#D9C3BE;--tc-on-dark-2:#E4D2CE}
+#calling .band.dark.wine .cap{color:#DCC7C2}
+
+/* ------------------------------------------------------------ motion ---- */
+#calling .rise{
+  opacity:0;transform:translateY(18px);
+  transition:opacity .9s cubic-bezier(.22,.61,.36,1),transform .9s cubic-bezier(.22,.61,.36,1);
+}
+#calling .rise.seen{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  #calling .rise{opacity:1;transform:none;transition:none}
+}
+
+/* =========================================================================
+   REVISION BRIEF · new components
+   ========================================================================= */
+
+/* ---- the one call to action -------------------------------------------- */
+#calling .cta{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
+#calling .cta .btn{padding:20px 48px;letter-spacing:.3em;font-size:12px}
+#calling .cta .sub{font-family:var(--tc-display);font-style:italic;font-size:19px;color:var(--tc-gold);margin:0}
+#calling .band.dark .cta .sub{color:var(--tc-gold-lt)}
+#calling .band.dark.wine .cta .sub{color:#EAD2CB}
+#calling .cta .fine{font-family:var(--tc-sans);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--tc-ink-soft);margin:0}
+#calling .band.dark .cta .fine{color:#C0A9A4}
+#calling .band.dark.wine .cta .fine{color:#DCC0BA}
+
+/* ---- large declarative lines ------------------------------------------- */
+#calling .becomes{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}
+#calling .becomes li{
+  font-family:var(--tc-display);font-size:clamp(23px,2.9vw,40px);line-height:1.26;
+  padding:15px 0;border-bottom:1px solid var(--tc-line);color:var(--tc-gold-deep)}
+#calling .becomes li:first-child{border-top:1px solid var(--tc-line)}
+#calling .becomes em{font-style:italic;color:var(--tc-gold)}
+
+/* ---- plain scannable lists --------------------------------------------- */
+#calling .plain{list-style:none;padding:0;margin:0;display:grid;width:100%;min-width:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(190px,100%),1fr));gap:0 clamp(20px,3vw,40px)}
+#calling .plain li{padding:10px 0;border-bottom:1px solid var(--tc-line);font-size:17px}
+#calling .band.dark .plain li{border-bottom-color:var(--tc-line-lt);color:var(--tc-on-dark-2)}
+#calling .plain.one{grid-template-columns:1fr}
+
+/* ---- training cards ----------------------------------------------------- */
+#calling .trainings{display:grid;width:100%;min-width:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(268px,100%),1fr));
+  gap:1px;background:var(--tc-line)}
+#calling .trainings article{background:var(--tc-cream);padding:34px 30px}
+#calling .band.cream2 .trainings article{background:var(--tc-cream2)}
+#calling .band.dark .trainings{background:rgba(203,175,134,.20)}
+#calling .band.dark .trainings article{background:var(--tc-dark)}
+#calling .band.dark.wine .trainings article{background:rgba(30,15,19,.42)}
+#calling .trainings .t-lab{
+  font-family:var(--tc-sans);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--tc-gold);display:block;margin-bottom:13px}
+#calling .band.dark .trainings .t-lab{color:var(--tc-gold-lt)}
+#calling .band.dark.wine .trainings .t-lab{color:#EAD2CB}
+#calling .trainings h3{font-size:clamp(21px,1.9vw,26px);margin-bottom:11px;line-height:1.18}
+#calling .trainings p{font-size:16.5px;line-height:1.62;color:var(--tc-ink-soft)}
+#calling .band.dark .trainings p{color:var(--tc-on-dark)}
+#calling .trainings p + p{margin-top:11px}
+
+/* ---- FAQ ---------------------------------------------------------------- */
+#calling .faq{display:flex;flex-direction:column;border-top:1px solid var(--tc-line)}
+#calling .qa{border-bottom:1px solid var(--tc-line)}
+#calling .qa summary{display:flex;gap:20px;align-items:baseline;cursor:pointer;padding:20px 2px;
+  font-family:var(--tc-display);font-size:clamp(18px,1.6vw,22px);line-height:1.4;
+  transition:color .25s ease}
+#calling .qa summary:hover{color:var(--tc-gold)}
+#calling .qa .tog{margin-left:auto;color:var(--tc-gold);font-family:var(--tc-sans);
+  font-size:19px;font-weight:300;line-height:1;flex:none;transition:transform .3s ease}
+#calling .qa[open] .tog{transform:rotate(45deg)}
+#calling .qa .ans{padding:0 2px 24px;max-width:72ch;color:var(--tc-ink-soft);
+  font-size:17px;line-height:1.66}
+#calling .qa .ans p + p{margin-top:12px}
+#calling .qa .tbc{font-style:italic;color:var(--tc-gold)}
+
+/* ---- testimonial framework (stories to be added) ------------------------ */
+#calling .stories{display:grid;width:100%;min-width:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(248px,100%),1fr));
+  gap:clamp(16px,2.2vw,28px)}
+#calling .story{border:1px solid var(--tc-line);background:#F6F1E9;padding:30px 26px}
+#calling .story.headline{grid-column:1/-1;display:grid;min-width:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:clamp(20px,3vw,40px)}
+#calling .story .s-lab{
+  font-family:var(--tc-sans);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--tc-gold);display:block;margin-bottom:16px}
+#calling .story dl{margin:0}
+#calling .story dt{font-family:var(--tc-sans);font-size:10px;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--tc-gold);margin-top:15px}
+#calling .story dt:first-child{margin-top:0}
+#calling .story dd{margin:6px 0 0;font-family:var(--tc-serif);font-style:italic;
+  font-size:16.5px;line-height:1.5;color:var(--tc-ink-soft)}
+
+/* ---- a note in Olivia's own voice --------------------------------------- */
+#calling .note p{font-family:var(--tc-display);font-size:clamp(19px,1.75vw,24px);line-height:1.55}
+#calling .note p + p{margin-top:18px}
+#calling .note p.credline{
+  font-family:var(--tc-sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--tc-gold);margin-top:28px;line-height:2.1}
+
+/* ---- the hero's editorial stat row -------------------------------------- */
+#calling .herostats{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;
+  justify-content:center;align-items:flex-end;gap:18px 0}
+#calling .herostats li{display:flex;flex-direction:column;align-items:center;gap:6px;
+  padding:0 clamp(16px,2.4vw,34px);border-left:1px solid rgba(232,207,201,.30)}
+#calling .herostats li:first-child{border-left:0}
+#calling .herostats .n{font-family:var(--tc-display);font-size:clamp(30px,3.4vw,46px);
+  line-height:1;color:#F6F1E9}
+#calling .herostats .u{font-family:var(--tc-sans);font-size:10px;letter-spacing:.24em;
+  text-transform:uppercase;color:#E4CBC5;line-height:1.6;text-align:center;max-width:14ch}
+#calling .herostats .u.solo{padding-bottom:3px}
+#calling .herostats li.qual{align-items:flex-start}
+#calling .hero.bold .herostats li.br{flex-basis:100%;padding:0;border:0;height:0}
+@media(max-width:760px){
+  #calling .herostats{gap:18px 0}
+  #calling .herostats li{flex:0 0 50%;padding:0 12px;border-left:0}
+  #calling .herostats li:nth-child(n+4){flex:0 0 100%}
+}
+
+/* ---- enter the room / return to life / come back different -------------- */
+#calling .cycle{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+  gap:clamp(10px,1.8vw,26px);text-align:center;margin:0}
+#calling .cycle .step{font-family:var(--tc-display);
+  font-size:clamp(23px,3.1vw,44px);line-height:1.14;color:var(--tc-gold-deep)}
+#calling .cycle .step.last{font-style:italic;color:var(--tc-gold)}
+#calling .cycle .arw{font-family:var(--tc-sans);font-weight:300;
+  font-size:clamp(15px,1.7vw,23px);color:var(--tc-gold-deep)}
+#calling .cycle .pair{display:inline-flex;align-items:center;
+  gap:clamp(10px,1.8vw,26px)}
+#calling .band.dark .cycle .step{color:#F6F1E9}
+#calling .band.dark .cycle .step.last{color:var(--tc-gold-lt)}
+#calling .band.dark .cycle .arw{color:var(--tc-gold-lt);opacity:.75}
+#calling .band.dark.wine .cycle .step.last,
+#calling .band.dark.wine .cycle .arw{color:#EAD2CB}
+
+/* ---- the rooms you come back into -------------------------------------------------- */
+#calling .rooms{display:grid;width:100%;min-width:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));
+  gap:1px;background:var(--tc-line)}
+#calling .rooms article{background:var(--tc-cream);padding:32px 28px}
+#calling .band.cream2 .rooms article{background:var(--tc-cream2)}
+@media(min-width:940px){#calling .rooms{grid-template-columns:repeat(3,1fr)}}
+#calling .rooms .n{font-family:var(--tc-display);font-size:clamp(40px,4.2vw,58px);
+  line-height:1;color:var(--tc-gold);display:block}
+#calling .rooms .u{font-family:var(--tc-sans);font-size:10.5px;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--tc-ink-soft);display:block;margin:12px 0 18px}
+#calling .rooms article.between .n{font-size:clamp(24px,2.3vw,32px);font-style:italic;color:var(--tc-gold-deep)}
+#calling .rooms h3{font-size:clamp(19px,1.75vw,24px);line-height:1.2;margin-bottom:10px}
+#calling .rooms p{font-size:16.5px;line-height:1.6;color:var(--tc-ink-soft)}
+#calling .rooms .total{grid-column:1/-1;background:var(--tc-gold);color:#F1E4E0;
+  padding:clamp(22px,3vw,32px) 28px;display:flex;flex-wrap:wrap;
+  align-items:baseline;justify-content:center;gap:6px 18px;text-align:center}
+#calling .rooms .total .tn{font-family:var(--tc-display);font-size:clamp(34px,3.6vw,50px);
+  line-height:1;color:#F6F1E9}
+#calling .rooms .total .tu{font-family:var(--tc-sans);font-size:11px;letter-spacing:.3em;
+  text-transform:uppercase;color:#EAD2CB}
+
+/* ---- the four stages of the journey ------------------------------------- */
+#calling .stages{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;
+  counter-reset:st;width:100%;min-width:0}
+#calling .stage{position:relative;padding:clamp(26px,3.2vw,38px) 0 clamp(26px,3.2vw,38px) clamp(30px,4vw,58px);
+  border-top:1px solid var(--tc-line)}
+#calling .stage:last-child{border-bottom:1px solid var(--tc-line)}
+#calling .stage::before{content:"";position:absolute;left:0;top:calc(50% - 5px);
+  width:10px;height:10px;border-radius:50%;background:var(--tc-gold)}
+#calling .stage::after{content:"";position:absolute;left:4px;top:calc(50% + 9px);
+  bottom:-8px;width:1px;background:var(--tc-line)}
+#calling .stage:last-child::after{content:none}
+#calling .stage.last::before{background:transparent;border:1px solid var(--tc-gold)}
+#calling .stage .s-lab{font-family:var(--tc-sans);font-size:10.5px;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--tc-ink-soft);display:block;margin-bottom:10px}
+#calling .stage h3{font-size:clamp(26px,2.9vw,40px);line-height:1.1;margin:0}
+#calling .stage.lead-stage h3{color:var(--tc-gold)}
+#calling .stage .s-sub{margin:8px 0 0;color:var(--tc-ink-soft);font-size:17px;line-height:1.55}
+#calling .stage .s-steps{margin:14px 0 0;font-family:var(--tc-display);font-style:italic;
+  font-size:clamp(18px,1.7vw,23px);color:var(--tc-gold-deep)}
+@media(max-width:560px){
+  #calling .stage{padding-left:26px}
+  #calling .stage .s-steps{font-size:17px}
+}
+
+/* ---- the scale of the ninety days --------------------------------------- */
+#calling .scale{list-style:none;padding:0;margin:0;display:grid;width:100%;min-width:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:0 clamp(20px,3vw,44px)}
+#calling .scale li{padding:12px 0;border-bottom:1px solid var(--tc-line-lt);
+  font-family:var(--tc-display);font-size:clamp(17px,1.6vw,21px);color:#EFE0DC}
+
+
+/* =========================================================================
+   VISUAL REVISION
+   Photographs now sit at full strength: either as a solid block beside the
+   copy, or as a real texture behind it. The faded wash is gone.
+   ========================================================================= */
+
+/* ---- the hero: one bold photograph, copy along the lower left ---------- */
+#calling .hero.bold{padding:0;min-height:0;display:block}
+#calling .hero.bold .shot{position:relative;min-height:min(92vh,900px);
+  display:flex;align-items:flex-end;overflow:hidden;background:#2A1016}
+#calling .hero.bold .shot > img{position:absolute;top:0;bottom:0;right:0;left:auto;
+  width:auto;height:100%;min-width:66%;object-fit:cover;object-position:52% 22%;z-index:0}
+#calling .hero.bold .scrim{position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(94deg,#2A1016 0%,#2A1016 26%,rgba(42,16,22,.86) 38%,
+             rgba(42,16,22,.34) 50%,rgba(42,16,22,0) 62%),
+             linear-gradient(0deg,rgba(24,10,14,.62) 0%,rgba(24,10,14,0) 38%)}
+#calling .hero.bold .wrap{position:relative;z-index:3;width:100%;
+  padding:clamp(60px,9vw,110px) clamp(24px,4vw,56px) clamp(52px,7vw,84px);
+  max-width:1180px;margin:0 auto}
+#calling .hero.bold .inner{max-width:32rem}
+#calling .hero.bold h1{font-size:clamp(40px,5.2vw,78px);line-height:1.04;
+  text-shadow:0 2px 34px rgba(20,8,11,.6)}
+#calling .hero.bold .said{font-family:var(--tc-display);font-style:italic;
+  font-size:clamp(20px,2.2vw,31px);line-height:1.32;color:#EAD2CB;max-width:26ch;margin:0}
+#calling .hero.bold .lead{max-width:40ch;text-shadow:0 2px 30px rgba(20,8,11,.55)}
+#calling .hero.bold .herostats{justify-content:flex-start}
+#calling .hero.bold .herostats li{align-items:flex-start;padding-left:0;padding-right:clamp(16px,2.2vw,32px);
+  border-left:0;border-right:1px solid rgba(232,207,201,.30)}
+#calling .hero.bold .herostats li:last-child{border-right:0;padding-right:0}
+#calling .hero.bold .herostats li.br + li{padding-left:0;border-left:0}
+#calling .hero.bold .herostats li:nth-child(3){border-right:0}
+#calling .hero.bold .herostats li:not(:first-child){padding-left:clamp(16px,2.2vw,32px)}
+#calling .hero.bold .herostats .u{text-align:left}
+#calling .hero.bold .cta{align-items:flex-start;text-align:left}
+#calling .band.dark .cta .btn.solid{background:#F1E4E0;border-color:#F1E4E0;color:#4E1A22}
+#calling .band.dark .cta .btn.solid:hover{background:#FFFFFF;border-color:#FFFFFF;color:#4E1A22}
+#calling .hero.bold .cta .sub{color:#EAD2CB}
+@media(max-width:820px){
+  #calling .hero.bold .shot{min-height:min(90vh,860px)}
+  #calling .hero.bold .shot > img{left:0;right:0;width:100%;height:100%;min-width:0;
+    object-position:52% 16%}
+  #calling .hero.bold .scrim{background:linear-gradient(0deg,#2A1016 0%,
+    rgba(42,16,22,.90) 30%,rgba(42,16,22,.40) 58%,rgba(42,16,22,.10) 100%)}
+  #calling .hero.bold .herostats li{flex:0 0 50%;border-right:0;padding:0 10px 0 0}
+  #calling .hero.bold .herostats li:not(:first-child){padding-left:0}
+}
+
+/* ---- a solid photograph beside the copy -------------------------------- */
+#calling .splitfig{display:grid;width:100%;min-width:0;
+  grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+  gap:clamp(28px,4.5vw,64px);align-items:center}
+#calling .splitfig .ph{position:relative;overflow:hidden;align-self:stretch;min-height:280px}
+#calling .splitfig .ph img{display:block;width:100%;height:100%;object-fit:cover}
+#calling .splitfig .cp{min-width:0}
+#calling .splitfig.rev .ph{order:2}
+@media(max-width:880px){
+  #calling .splitfig{grid-template-columns:1fr;gap:32px}
+  #calling .splitfig .ph{order:0;min-height:0}
+  #calling .splitfig.rev .ph{order:0}
+  #calling .splitfig .ph img{aspect-ratio:4/3}
+}
+
+/* ---- the five movements: a stacked, tonal drop-down stack -------------- */
+#calling .moves{display:flex;flex-direction:column;gap:0}
+#calling .move{border:0;border-radius:22px 22px 0 0;overflow:hidden;
+  background:var(--tc-gold);position:relative}
+#calling .move + .move{margin-top:-14px}
+#calling .band.cream2 .move{background:var(--tc-gold)}
+#calling .moves .move:nth-child(2),#calling .band.cream2 .moves .move:nth-child(2){background:#5B1D25}
+#calling .moves .move:nth-child(3),#calling .band.cream2 .moves .move:nth-child(3){background:#4A1820}
+#calling .moves .move:nth-child(4),#calling .band.cream2 .moves .move:nth-child(4){background:#35141A}
+#calling .moves .move:nth-child(5),#calling .band.cream2 .moves .move:nth-child(5){background:#1E0F13}
+#calling .move-head{padding:clamp(24px,3vw,34px) clamp(24px,3.4vw,42px);
+  gap:clamp(16px,2.4vw,30px);align-items:baseline;color:#F1E4E0}
+#calling .move-head:hover{background:rgba(255,255,255,.05)}
+#calling .move-num{color:#F1E4E0;min-width:28px;font-size:12px;opacity:1}
+#calling .move-lab{flex-direction:row;flex-wrap:wrap;align-items:baseline;
+  justify-content:space-between;gap:6px clamp(16px,3vw,40px)}
+#calling .move-name{color:#F6F1E9;letter-spacing:.01em}
+#calling .move-sub{color:#E0C4BF;font-style:italic}
+#calling .move-tog{color:#E8CFC9}
+#calling .move-body{background:#170A0E;color:#C6ADA8;margin:0;max-width:none;
+  padding:clamp(28px,3.4vw,40px) clamp(24px,3.4vw,42px) clamp(34px,4vw,48px)}
+#calling .move-body > *{max-width:var(--tc-measure)}
+#calling .move-body p{color:#C6ADA8}
+#calling .move-body ul{max-width:none}
+#calling .move-body ul li{border-bottom-color:rgba(196,161,153,.22);color:#DCC7C2}
+#calling .move-body ul li::before{color:#C4A199}
+#calling .move-body .asks li{color:#EFE0DC}
+#calling .move-body .principle{border-left-color:#C4A199;color:#EAD2CB}
+#calling .move-body .quiet{color:#B49B96}
+
+/* ---- meet Olivia: one dark panel, the photograph bleeding into it ------ */
+#calling .founder{position:relative;overflow:hidden;border-radius:26px;
+  background-color:#3A141B;
+  background-image:linear-gradient(105deg,#4E1A22 0%,#3A141B 52%,#2A1016 100%);
+  display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);align-items:stretch}
+#calling .founder .cp{padding:clamp(38px,5vw,70px) clamp(28px,4vw,58px);align-self:center}
+#calling .founder .ph{position:relative;min-height:clamp(380px,48vw,620px)}
+#calling .founder .ph img{position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:46% 30%}
+#calling .founder .ph::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,#3A141B 0%,rgba(58,20,27,.94) 9%,rgba(58,20,27,.62) 22%,
+             rgba(58,20,27,.24) 38%,rgba(58,20,27,0) 56%),
+             linear-gradient(0deg,rgba(42,16,22,.60),rgba(42,16,22,0) 30%)}
+#calling .founder .eyebrow{color:#E8CFC9}
+#calling .founder .name{font-family:var(--tc-display);
+  font-size:clamp(44px,6vw,92px);line-height:.94;color:#F6F1E9;
+  text-transform:uppercase;letter-spacing:-.012em;margin:14px 0 4px}
+#calling .founder .name em{display:block;font-style:italic;text-transform:none;
+  color:#EAD2CB;font-size:.78em;letter-spacing:0}
+#calling .founder p{color:#DCC7C2;font-family:var(--tc-display);
+  font-size:clamp(17px,1.55vw,21px);line-height:1.62}
+#calling .founder p + p{margin-top:15px}
+#calling .founder p em{font-style:italic;color:#EAD2CB}
+#calling .founder .credline{font-family:var(--tc-sans);font-size:10.5px;
+  letter-spacing:.22em;text-transform:uppercase;color:#C6ADA8;margin-top:28px;line-height:2.1}
+@media(max-width:880px){
+  #calling .founder{grid-template-columns:1fr;border-radius:20px}
+  #calling .founder .ph{order:-1;min-height:min(64vw,420px)}
+  #calling .founder .ph::after{background:linear-gradient(0deg,#3A141B 0%,rgba(58,20,27,.65) 26%,rgba(58,20,27,0) 62%)}
+  #calling .founder .cp{padding:clamp(24px,6vw,40px) clamp(22px,6vw,36px) clamp(34px,7vw,48px)}
+}
+
+/* ---- a pair of stacked statements --------------------------------------- */
+#calling .land{text-align:center}
+#calling .land .a{font-family:var(--tc-display);font-size:clamp(26px,3.4vw,48px);
+  line-height:1.18;display:block}
+#calling .land .b{font-family:var(--tc-display);font-style:italic;
+  font-size:clamp(21px,2.4vw,34px);line-height:1.3;display:block;margin-top:10px;
+  color:var(--tc-gold)}
+#calling .band.dark .land .b{color:var(--tc-gold-lt)}
+#calling .band.dark.wine .land .b{color:#EAD2CB}
+
+</style>
 </head>
 <body>
 <header class="site">
@@ -2770,88 +3438,1078 @@ a:focus-visible,button:focus-visible{outline-color:var(--rose)}
 </div>
 <nav class="tabs" id="tabs">
 <a data-go="about" href="index.html">About</a>
-<a class="active" data-go="philosophy" href="philosophy.html">Philosophy</a>
+<a data-go="philosophy" href="philosophy.html">Philosophy</a>
 <a data-go="path" href="the-lineage.html">The Lineage</a>
 <a data-go="work" href="the-path.html">The Path</a>
 <a data-go="love" href="love-notes.html">Love Notes</a>
-<a data-go="calling" href="the-calling.html">The Calling</a>
+<a class="active" data-go="calling" href="the-calling.html">The Calling</a>
 <a data-go="empower" href="empower-thyself.html">Empower Thyself</a>
 </nav>
 </header>
 <main>
-<div class="page visible" id="philosophy">
-<section class="band bg-img"><div class="bgart" style="background-image:url(assets/img/img-1b1c4c6787.jpg);opacity:.16"></div>
-<div class="wrap center">
-<p class="eyebrow">Chapter One</p>
-<h1 style="font-size:clamp(40px,5vw,68px);margin-top:14px">The Philosophy</h1>
-<div class="rule" style="margin:28px auto"></div>
-<p class="lead mid" >Perhaps the life you're searching for isn't built by collecting more. It's built by becoming more.</p>
-</div>
+<div class="page visible" id="calling">
+
+<!-- ══════════ SECTION 1 · HERO ══════════ -->
+<section class="band dark wine hero bold">
+  <div class="shot">
+    <img src="assets/img/img-e516ee97e0.jpg" alt="Olivia Carli seated in a deep burgundy room" loading="lazy" decoding="async">
+    <div class="scrim"></div>
+    <div class="frame"></div>
+    <div class="wrap">
+      <div class="inner stack loose">
+        <p class="eyebrow on-dark">The Calling</p>
+        <h1>You feel called to do something<br>meaningful with <em>your life.</em></h1>
+        <p class="said">The question is whether you've become capable of doing it.</p>
+        <div class="rule on-dark"></div>
+        <p class="lead">A 90-day initiatory journey for people ready to move beyond seeking and into deeper self-knowledge, self-mastery, spiritual training and meaningful service.</p>
+        <ul class="herostats">
+          <li><span class="n">90</span><span class="u">Days</span></li>
+          <li><span class="n">10</span><span class="u">People per cohort</span></li>
+          <li class="qual"><span class="u solo">Repeated in-person experiences</span></li>
+          <li class="br"></li>
+          <li class="qual"><span class="u solo">Private mentorship</span></li>
+          <li class="qual"><span class="u solo">Initiation + spiritual training</span></li>
+        </ul>
+        <div class="cta">
+          <a class="btn solid" href="#answer">Answer the Call</a>
+          <p class="sub">Apply for The Calling →</p>
+          <p class="fine">The Calling opens January 2027</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- ══════════ SECTION 2 · RECOGNITION ══════════ -->
 <section class="band">
-<div class="wrap narrow questions">
-<p>Perhaps you've found yourself here because you've started to wonder… <em>Is there a better way to live?</em></p>
-<p>I've accomplished so much… yet it still feels like something essential is missing. How do I raise children, build a business, love my partner, care for my community, and still remain connected to myself?</p>
-<p class="q">Why do I keep returning to the same patterns? How do I create relationships with depth instead of performance? How do I become someone whose presence leaves the world better than they found it? How do I live wisely?</p>
-<p>These are the questions that have guided philosophers, mystics, artists, healers, leaders and seekers for thousands of years. Perhaps they've brought you here too.</p>
-<div class="rule"></div>
-<p class="big-quote">The pursuit of wisdom is the pursuit of a life well lived.</p>
-</div>
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">I &nbsp;·&nbsp; Recognition</p>
+      <h2 style="margin-top:10px">You may recognise yourself here.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="voices">
+      <blockquote>“I know I'm meant to do something important with my life.”</blockquote>
+      <blockquote>“People have always come to me.”</blockquote>
+      <blockquote>“I want to help people, but I don't know what that actually looks like.”</blockquote>
+      <blockquote>“I have a successful career, but I don't feel like this is all I'm here for.”</blockquote>
+      <blockquote>“I've done years of healing and spiritual work. At some point I need to do something with it.”</blockquote>
+      <blockquote>“I know I'm capable of more.”</blockquote>
+      <blockquote>“I want training. Not another manifestation course.”</blockquote>
+      <blockquote>“I want to understand spirituality deeply, but I also want to be useful.”</blockquote>
+      <blockquote>“I don't want to waste my life.”</blockquote>
+    </div>
+  </div>
 </section>
-<section class="band cream2">
-<div class="wrap">
-<div class="center" style="margin-bottom:50px">
-<p class="eyebrow">Chapter Two</p>
-<h2 class="statement" style="margin-top:14px">The Principles</h2>
-<p class="lead narrow" style="margin-top:20px">Every meaningful life begins long before our actions do. It begins in the way we see. Before there is transformation, there is understanding. Before there is healing, there is awareness. Before there is practice, there is philosophy.</p>
-</div>
-<div class="timeline">
-<div class="tl-item"><span class="tl-node"></span><div class="num">I</div><h3>Wisdom is life's greatest pursuit.</h3><p>Knowledge helps us understand the world. Wisdom teaches us how to live within it. It shapes our decisions, our relationships, our character, and ultimately, the life we create. Everything else grows from here.</p></div>
-<div class="tl-item"><span class="tl-node"></span><div class="num">II</div><h3>A meaningful life is cultivated, not discovered.</h3><p>Meaning is rarely something we stumble upon. It is built slowly, through the choices we make, the actions we take, and the values we embody.</p></div>
-<div class="tl-item"><span class="tl-node"></span><div class="num">III</div><h3>Every life is orbiting around something.</h3><p>Whether we realize it or not, every life has a centre: success, fear, status, love, approval, comfort, service, God. Whatever occupies that centre quietly shapes everything around it. You must choose your centre wisely.</p></div>
-<div class="tl-item"><span class="tl-node"></span><div class="num">IV</div><h3>Healing clears the way.</h3><p>Healing is not the destination. It is what allows us to live with greater freedom, clarity and presence. It removes what obscures our heart, interrupts our discernment, and keeps us from living in alignment with who we truly are.</p></div>
-<div class="tl-item"><span class="tl-node"></span><div class="num">V</div><h3>Self-mastery creates freedom.</h3><p>The greatest form of leadership always begins with the self. The more we understand our spirit, heart, mind, habits and choices, the more intentionally we can shape our lives. The trap is thinking freedom is found in having fewer responsibilities, when really it is found in becoming someone who can hold them with grace.</p></div>
-<div class="tl-item"><span class="tl-node"></span><div class="num">VI</div><h3>Beauty is essential.</h3><p>Beauty is not an indulgence or merely decoration. It is the natural expression of a well-ordered life. It is nourishment: the spaces we inhabit, the meals we prepare, the conversations we have, the art we create, the way we care for one another. Beauty reminds us that life is worthy of our attention.</p></div>
-<div class="tl-item"><span class="tl-node"></span><div class="num">VII</div><h3>Service gives life meaning.</h3><p>There comes a point where fulfillment asks something more of us. Not simply, <em>"What do I want from life?"</em> But, <em>"What do I want to give to life?"</em> Our lives become richer when they become an offering.</p></div>
-</div>
-<div class="callout">
-<p class="c-line">These are the principles. The Calling is where they become practice.</p>
-<a class="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
-</div>
-</div>
+
+<!-- ══════════ INTERLUDE · THE CALLED ══════════ -->
+<section class="band plateband dark">
+  <div class="interlude">
+    <img class="bg" style="object-position:50% 30%" src="assets/img/img-c62d38537c.jpg" alt="Five women dressed in black, each holding a single rose" loading="lazy" decoding="async">
+    <div class="veil" style="background:linear-gradient(180deg,rgba(30,15,19,.50),rgba(30,15,19,.80))"></div>
+    <div class="frame"></div>
+    <div class="inner wide">
+      <p class="say">You're not looking for someone to rescue you. You're ready to take greater responsibility for the life you already have.</p>
+    </div>
+  </div>
 </section>
+
+<!-- ══════════ SECTION 3 · THE TENSION ══════════ -->
+<section class="band dark">
+  <div class="bgart" style="background-image:url(assets/img/img-5ebf24d8ff.jpg);opacity:1"></div>
+  <div class="bgtint" style="background:linear-gradient(180deg,rgba(20,8,11,.42),rgba(20,8,11,.66))"></div>
+  <div class="wrap mid center stack loose rise">
+    <p class="eyebrow on-dark">II &nbsp;·&nbsp; The Tension</p>
+    <h2 class="statement">Feeling called is not the same as being equipped.</h2>
+    <div class="rule on-dark center"></div>
+    <p class="lead" style="max-width:52ch;margin:0 auto">You can care deeply about people. You can feel certain your life is meant to mean something. You can have gifts, intelligence, sensitivity, ambition and good intentions. And still not yet have the foundation required to carry greater responsibility well.</p>
+    <p class="big-quote" style="color:var(--gold-light);max-width:22ch;margin:14px auto 0">Calling does not equal capacity.</p>
+    <p class="quiet" style="max-width:46ch;margin:0 auto">The gap might look like:</p>
+    <div class="chips">
+      <span>Lack of direction</span><span>Inconsistent discipline</span><span>Unresolved patterns</span>
+      <span>Emotional reactivity</span><span>Stress</span><span>Fear of being seen</span>
+      <span>Lack of energetic strength</span><span>Lack of training</span>
+      <span>Information without integration</span><span>Wanting to help without knowing how</span>
+      <span>Not knowing where to begin</span>
+    </div>
+    <p class="big-quote" style="color:var(--light);max-width:26ch;margin:16px auto 0">A calling is an invitation to develop.</p>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 4 · THE OLD WAY ══════════ -->
 <section class="band">
-<div class="wrap">
-<div class="feature rev">
-<div class="ph tall has-photo" style="background-image:url(assets/img/img-1b1c4c6787.jpg)"></div>
-<div class="fcopy">
-<p class="eyebrow">Chapter Three</p>
-<h2>The Path</h2>
-<div class="rule"></div>
-<p>Throughout history, those who sought wisdom did more than admire great ideas. They walked a path, one that united philosophy with practice, knowledge with magick, and understanding with transformation.</p>
-<p>A spiritual practice can bring moments of peace, clarity and connection. A spiritual path asks something different. It is not a collection of inspiring ideas, nor a cycle of returning to the same place again and again. It is a living journey with <em>clear direction</em>: teachings to receive, practices to embody, masters to learn from, thresholds to cross, and initiations that prepare you for the next invitation to step up and expand.</p>
-<p>For thousands of years, this journey has been known by many names. The Great Work. The Mysteries. The Path of Initiation. Jacob's Ladder. The Way. Though the language has changed, the invitation has remained the same: <em>to Know Thyself.</em></p>
-</div>
-</div>
-</div>
+  <div class="wrap mid stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">III &nbsp;·&nbsp; Endless Seeking</p>
+      <p class="quiet" style="font-family:var(--tc-display);font-size:clamp(20px,2vw,27px);margin-top:10px">Maybe you don't need another experience.</p>
+      <h2 style="margin-top:2px">Maybe you need a path.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <p class="lead center" style="max-width:50ch;margin:0 auto">You've learned. You've healed. You've read the books, listened to the podcasts, taken the workshops and followed the teachers. Some of it genuinely changed you. But eventually, seeking has to lead somewhere.</p>
+    <ul class="becomes">
+      <li>Information has to become <em>wisdom.</em></li>
+      <li>Healing has to become <em>integration.</em></li>
+      <li>Potential has to become <em>capacity.</em></li>
+      <li>And a calling has to become <em>service.</em></li>
+    </ul>
+    <div class="ledger" style="margin-top:14px">
+      <div class="lhead a">Instead of</div><div class="spacer"></div><div class="lhead b">Toward</div>
+      <div class="a-cell">Endless seeking</div><div class="arrow">→</div><div class="b-cell">A path</div>
+      <div class="a-cell">Information</div><div class="arrow">→</div><div class="b-cell">Wisdom</div>
+      <div class="a-cell">Consumption</div><div class="arrow">→</div><div class="b-cell">Practice</div>
+      <div class="a-cell">Shortcuts</div><div class="arrow">→</div><div class="b-cell">Development</div>
+      <div class="a-cell">Endless healing</div><div class="arrow">→</div><div class="b-cell">Integration</div>
+      <div class="a-cell">Spiritual bypassing</div><div class="arrow">→</div><div class="b-cell">Responsibility</div>
+      <div class="a-cell">Collecting modalities</div><div class="arrow">→</div><div class="b-cell">Progressive training</div>
+      <div class="a-cell">Self-development as the destination</div><div class="arrow">→</div><div class="b-cell">Service</div>
+    </div>
+    <div class="center stack tight" style="margin-top:14px">
+      <p class="big-quote" style="max-width:22ch;margin:0 auto;color:var(--gold-deep)">Seeking should lead somewhere.</p>
+      <p class="lead">To wisdom. To mastery. To responsibility. To service.</p>
+    </div>
+  </div>
 </section>
+
+<!-- ══════════ SECTION 5 · INTRODUCING THE CALLING ══════════ -->
 <section class="band dark wine">
-<div class="wrap center">
-<p class="eyebrow on-dark">Chapter Four</p>
-<h2 class="statement" style="color:var(--light);margin-top:14px">The Life</h2>
-<div class="rule on-dark" style="margin:28px auto"></div>
-<div class="mid" style="text-align:left;color:#D8C7C2">
-<p>The path is not walked for the sake of collecting teachings, or accumulating spiritual experiences, or becoming more knowledgeable. The purpose of the path is far simpler. To learn how to live. To cultivate wisdom. To know yourself. To know God.</p>
-<p>A meaningful life is not built all at once. It is cultivated. One decision. One act of courage. One moment of integrity. One ordinary day lived with extraordinary intention.</p>
-<p>A life of wisdom is not separate from everyday life. It is revealed through it: in the way you love your partner, raise your children, lead your business, care for your body, navigate hardship, welcome people into your home, and in the courage to do what is right when no one is watching.</p>
-<p>The path is not an escape from the world. It is a preparation to meet it. Perhaps this is why the pursuit of wisdom has endured for thousands of years. Not because it promises a perfect life, but because it teaches us how to cultivate a meaningful one.</p>
-<p style="color:var(--rose-light);font-style:italic;font-size:1.2em">Every journey begins with a single step. Perhaps yours begins here.</p>
-</div>
-<div style="margin-top:36px"><a class="btn on-dark" data-go="work" href="the-path.html">Begin Your Journey</a>   <a class="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a></div>
-</div>
+  <div class="wrap stack loose rise">
+    <div class="splitfig">
+      <div class="ph"><img src="assets/img/img-3bb4a2882b.jpg" alt="A hand reaching for the brass knocker on a door marked The Calling" loading="lazy" decoding="async"></div>
+      <div class="cp stack">
+        <p class="eyebrow on-dark">IV &nbsp;·&nbsp; The Calling</p>
+        <h2 class="statement">One season can change the direction of a life.</h2>
+        <div class="rule on-dark"></div>
+        <p class="lead">The Calling is a 90-day initiatory journey for people who know they want their lives to matter and are ready to become more capable of contributing something meaningful. This isn't another course designed to give you more information. It is a season of development.</p>
+        <p class="quiet">Across ninety days, we work on three things.</p>
+      </div>
+    </div>
+    <div class="trainings">
+      <article>
+        <span class="t-lab">One</span>
+        <h3>Know Yourself</h3>
+        <p>Deepen your understanding of yourself, receive ancient spiritual teachings and initiation, and begin seeing yourself, your life and your potential with greater clarity.</p>
+      </article>
+      <article>
+        <span class="t-lab">Two</span>
+        <h3>Master Yourself</h3>
+        <p>Develop greater stability, energetic strength, awareness, resilience, discipline and capacity in the life you are actually living.</p>
+      </article>
+      <article>
+        <span class="t-lab">Three</span>
+        <h3>Serve</h3>
+        <p>Receive foundational and advanced spiritual training, begin developing practical tools you can use in service to others, clarify your next steps, and establish a foundation from which your calling can begin becoming something lived.</p>
+      </article>
+    </div>
+    <div class="land" style="margin-top:10px">
+      <span class="a">This isn't another course to consume.</span>
+      <span class="b">It is a path to walk.</span>
+    </div>
+    <div class="cta" style="margin-top:6px">
+      <a class="btn solid" href="#answer">Answer the Call</a>
+      <p class="sub">Apply for The Calling →</p>
+    </div>
+  </div>
 </section>
+
+<!-- ══════════ SECTION 6 · THE IN-PERSON EXPERIENCE ══════════ -->
+<section class="band">
+  <div class="wrap stack loose rise">
+    <div class="splitfig rev">
+      <div class="ph"><img src="assets/img/img-df24decd69.jpg" alt="A gloved hand pressing a brass bell on a marble table" loading="lazy" decoding="async"></div>
+      <div class="cp stack">
+        <p class="eyebrow">V &nbsp;·&nbsp; The In-Person Experience</p>
+        <p class="quiet" style="font-family:var(--tc-display);font-size:clamp(20px,2vw,27px)">Not another twelve-week online course.</p>
+        <h2 style="margin-top:-14px">Some things have to be experienced.</h2>
+        <div class="rule"></div>
+        <p class="lead">There is extraordinary value in what can happen through a conversation, a teaching or a screen. But some things cannot be fully understood intellectually. They have to be experienced.</p>
+        <p class="quiet">The Calling is built around repeated in-person experiences across the ninety-day journey, with private mentorship, practice and integration woven between them. You don't simply receive information and disappear behind a laptop for twelve weeks. You repeatedly come back into the room.</p>
+      </div>
+    </div>
+    <div class="chips" style="justify-content:center">
+      <span>To receive</span><span>To learn</span><span>To practise</span><span>To experience</span>
+      <span>To be initiated</span><span>To work with the tools</span><span>To ask questions</span><span>To deepen</span>
+    </div>
+    <p class="quiet center" style="max-width:44ch;margin:0 auto">And then you return to your actual life and live it.</p>
+  </div>
+</section>
+
+<section class="band dark">
+  <div class="bgart" style="background-image:url(assets/img/img-373d3ab644.jpg);opacity:1"></div>
+  <div class="bgtint" style="background:linear-gradient(180deg,rgba(20,8,11,.70),rgba(20,8,11,.80))"></div>
+  <div class="frame"></div>
+  <div class="wrap mid center stack loose rise">
+    <p class="eyebrow on-dark">The Rhythm</p>
+    <p class="cycle">
+      <span class="step">Enter the room</span>
+      <span class="pair"><span class="arw">→</span><span class="step">Return to life</span></span>
+      <span class="pair"><span class="arw">→</span><span class="step last">Come back different.</span></span>
+    </p>
+    <div class="rule on-dark center"></div>
+    <p class="lead" style="max-width:54ch;margin:0 auto">You receive something. You take it into your life. You practise. You discover where it holds, and where you are still challenged. Life gives you opportunities to work with what you have received.</p>
+    <p class="quiet" style="max-width:54ch;margin:0 auto">You notice yourself differently. You receive private mentorship and guidance. And then you return to the room. You learn again. You experience again. You practise again.</p>
+    <p class="big-quote" style="color:var(--light);max-width:26ch;margin:8px auto 0">Over ninety days, the work begins becoming yours.</p>
+  </div>
+</section>
+
+<section class="band cream2">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">Ninety Days</p>
+      <h2 style="margin-top:10px">The times you come into the room.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="rooms">
+      <article>
+        <span class="n">I</span><span class="u">In person</span>
+        <h3>Empower Thyself + Initiation</h3>
+        <p>Two days of ancient teachings, rituals, spiritual tools, energetic development and initiation.</p>
+      </article>
+      <article>
+        <span class="n">II</span><span class="u">In person</span>
+        <h3>The Stress Reset</h3>
+        <p>A five-part training in stress, self-regulation and inner stability, held progressively across the earlier portion of the ninety days.</p>
+      </article>
+      <article>
+        <span class="n">III</span><span class="u">In person</span>
+        <h3>Spiritual Foundations</h3>
+        <p>Sacred Geometry · Astral Travel · Magical Beings of the Earth · Journeys of the Spirit</p>
+      </article>
+      <article>
+        <span class="n">IV</span><span class="u">In person</span>
+        <h3>Advanced Sacred Geometry</h3>
+        <p>Crystal Lightworker training: practical tools and services you can begin using in service to others.</p>
+      </article>
+      <article>
+        <span class="n">V</span><span class="u">One to one</span>
+        <h3>Personal healing</h3>
+        <p>Life Activation, and an additional personal healing selected for your own needs.</p>
+      </article>
+      <article class="between">
+        <span class="n">Throughout</span><span class="u">Between the rooms</span>
+        <h3>Private mentorship</h3>
+        <p>Private guidance at the moments that matter, across the whole ninety days.</p>
+      </article>
+      <div class="total"><span class="tu">Repeated in-person experiences across the ninety days</span></div>
+    </div>
+    <p class="lead center" style="max-width:58ch;margin:0 auto">There will be teachings you can understand with your mind. And there will be rituals, initiation, meditation, healing, practices and moments that need to be experienced for yourself.</p>
+    <div class="land">
+      <span class="a">This isn't simply something you log into.</span>
+      <span class="b">It is something you enter.</span>
+    </div>
+    <div class="cta" style="margin-top:6px">
+      <a class="btn solid" href="#answer">Answer the Call</a>
+      <p class="sub">Apply for The Calling →</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 6 · THE TRANSFORMATION ══════════ -->
+<section class="band">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">VI &nbsp;·&nbsp; The Transformation</p>
+      <h2 style="margin-top:10px">Called → Capable → Of Service</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="arc">
+      <div class="step"><span class="a-lab">At the beginning</span><p>“I know I'm meant for more.”</p></div>
+      <div class="step"><span class="a-lab">Around 30 days</span><p>“I'm beginning to understand myself, and what has been getting in my way.”</p></div>
+      <div class="step"><span class="a-lab">Around 60 days</span><p>“I'm developing the spiritual, energetic and personal foundation to hold more.”</p></div>
+      <div class="step"><span class="a-lab">At 90 days</span><p>“I have tools. I have training. I have greater capacity. I have direction. I know my next step. And I'm beginning to understand how what I have received can become useful to others.”</p></div>
+    </div>
+    <div class="wrap narrow" style="margin-top:10px">
+      <p class="subhead">What you leave with</p>
+      <ul class="plain" style="margin-top:14px">
+        <li>Greater self-knowledge</li>
+        <li>Greater energetic capacity</li>
+        <li>Greater stability</li>
+        <li>Initiation</li>
+        <li>Spiritual tools</li>
+        <li>Practical training</li>
+        <li>Direction</li>
+        <li>A clearer relationship with service</li>
+        <li>Concrete next steps</li>
+      </ul>
+      <p class="quiet" style="margin-top:22px">And for those called toward the healer's path, the prerequisite training needed to move into the next stage.</p>
+    </div>
+    <div class="land" style="margin-top:12px">
+      <span class="a" style="color:var(--ink)">I don't need to know everything I'm destined to do.</span>
+      <span class="b">I know what mine is to do next.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ INTERLUDE · THE ANCIENT INSTRUCTION ══════════ -->
+<section class="band plateband dark">
+  <div class="interlude">
+    <img class="bg" style="object-position:50% 40%" src="assets/img/img-6fb949c81e.jpg" alt="A marble sculpture of Psyche beneath a gilded baroque ceiling" loading="lazy" decoding="async">
+    <div class="veil" style="background:linear-gradient(180deg,rgba(30,15,19,.46),rgba(30,15,19,.74))"></div>
+    <div class="frame"></div>
+    <div class="inner">
+      <p class="eyebrow on-dark">The Ancient Instruction</p>
+      <p class="say">For three thousand years the instruction has not changed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 7 · PHILOSOPHY ══════════ -->
+<section class="band cream2">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">VII &nbsp;·&nbsp; The Philosophy</p>
+      <h2 style="margin-top:10px">Know Thyself. Master Thyself. Serve.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="wrap narrow">
+      <div class="reframes">
+        <div class="reframe"><span class="r-neg">Know Thyself isn't endless introspection</span><p class="r-pos">Know yourself so you can understand <b>what you're here to give.</b></p></div>
+        <div class="reframe"><span class="r-neg">Self-mastery isn't becoming perfect</span><p class="r-pos">Master yourself so you can hold <b>greater responsibility.</b></p></div>
+        <div class="reframe"><span class="r-neg">Healing isn't endless self-work</span><p class="r-pos">Heal so your wounds don't become <b>the lens through which you serve.</b></p></div>
+        <div class="reframe"><span class="r-neg">Wisdom isn't information</span><p class="r-pos">Acquire wisdom so you can <b>use it.</b></p></div>
+        <div class="reframe"><span class="r-neg">Purpose isn't the perfect job</span><p class="r-pos">Purpose begins with the question: <b>what can I contribute with the life I've been given?</b></p></div>
+      </div>
+    </div>
+    <div class="land" style="margin-top:14px">
+      <span class="a">A calling is not a crown.</span>
+      <span class="b">It is a responsibility.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 8 · THE SHAPE OF THE JOURNEY ══════════ -->
+<section class="band">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">VIII &nbsp;·&nbsp; The Shape of the Journey</p>
+      <h2 style="margin-top:10px">Ninety days, and what follows.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <ol class="stages">
+      <li class="stage lead-stage">
+        <span class="s-lab">Stage One</span>
+        <h3>The Calling</h3>
+        <p class="s-sub">A 90-day initiatory journey</p>
+        <p class="s-steps">Heal &nbsp;→&nbsp; Initiate &nbsp;→&nbsp; Expand &nbsp;→&nbsp; Train</p>
+      </li>
+      <li class="stage">
+        <span class="s-lab">Stage Two</span>
+        <h3>The Practicum</h3>
+        <p class="s-sub">Take the training into real life</p>
+        <p class="s-steps">Practise &nbsp;→&nbsp; Apply &nbsp;→&nbsp; Serve</p>
+      </li>
+      <li class="stage">
+        <span class="s-lab">Stage Three</span>
+        <h3>The Return</h3>
+        <p class="s-sub">A final in-person integration gathering</p>
+        <p class="s-steps">Reflect &nbsp;→&nbsp; Integrate &nbsp;→&nbsp; Continue</p>
+      </li>
+      <li class="stage last">
+        <span class="s-lab">And then</span>
+        <h3>The Path Continues</h3>
+        <p class="s-sub">Ongoing monthly initiate calls and continued spiritual guidance</p>
+      </li>
+    </ol>
+    <div class="land" style="margin-top:6px">
+      <span class="a">The Calling has a completion.</span>
+      <span class="b">The path does not.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 9 · THE FOUR MOVEMENTS ══════════ -->
+<section class="band cream2">
+  <div class="wrap mid stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">IX &nbsp;·&nbsp; The Four Movements</p>
+      <h2 style="margin-top:10px">Heal → Initiate → Expand → Train</h2>
+      <p class="quiet" style="max-width:44ch;margin:14px auto 0">The four movements inside the ninety days.</p>
+    </div>
+    <div class="moves">
+
+      <details class="move" open>
+        <summary class="move-head">
+          <span class="move-num">I</span>
+          <span class="move-lab"><span class="move-name">Heal</span><span class="move-sub">Get yourself right before trying to help anyone else.</span></span>
+          <span class="move-tog">+</span>
+        </summary>
+        <div class="move-body">
+          <p>Before anything is built, the ground is levelled. This movement clears what has been quietly running you, and begins the personal recalibration the rest of the journey rests on.</p>
+          <ul>
+            <li>Life Activation</li>
+            <li>Personal healing</li>
+            <li>Onboarding &amp; private mentorship</li>
+            <li>The Stress Reset begins</li>
+          </ul>
+          <p class="principle">Your capacity to serve others will never sustainably exceed your capacity to govern yourself.</p>
+        </div>
+      </details>
+
+      <details class="move">
+        <summary class="move-head">
+          <span class="move-num">II</span>
+          <span class="move-lab"><span class="move-name">Initiate</span><span class="move-sub">Cross the threshold into the lineage.</span></span>
+          <span class="move-tog">+</span>
+        </summary>
+        <div class="move-body">
+          <p>The central threshold of The Calling. Through the two-day Empower Thyself training you receive foundational Mystery School teachings, rituals and practical tools, culminating in initiation into the lineage.</p>
+          <ul>
+            <li>Empower Thyself</li>
+            <li>Initiation</li>
+            <li>Mystery School teachings</li>
+            <li>Rituals &amp; tools</li>
+            <li>The Stress Reset continues and completes</li>
+          </ul>
+          <p class="principle">You are not only learning more. You are building the capacity to hold more.</p>
+        </div>
+      </details>
+
+      <details class="move">
+        <summary class="move-head">
+          <span class="move-num">III</span>
+          <span class="move-lab"><span class="move-name">Expand</span><span class="move-sub">Widen what you are able to perceive and understand.</span></span>
+          <span class="move-tog">+</span>
+        </summary>
+        <div class="move-body">
+          <p>Four Spiritual Foundations trainings within the tradition, designed to expand awareness, deepen spiritual understanding and develop practical skill.</p>
+          <ul>
+            <li>Sacred Geometry</li>
+            <li>Astral Travel</li>
+            <li>Magical Beings of the Earth</li>
+            <li>Journeys of the Spirit</li>
+          </ul>
+          <p class="quiet" style="font-size:16.5px">Each training is described in full further down this page.</p>
+        </div>
+      </details>
+
+      <details class="move">
+        <summary class="move-head">
+          <span class="move-num">IV</span>
+          <span class="move-lab"><span class="move-name">Train</span><span class="move-sub">Begin learning how to give what you have received.</span></span>
+          <span class="move-tog">+</span>
+        </summary>
+        <div class="move-body">
+          <p>A separate day of Advanced Sacred Geometry and Crystal Lightworker training, where you begin learning practical tools and services that can be offered to others.</p>
+          <ul>
+            <li>Advanced Sacred Geometry</li>
+            <li>Crystal Lightworker training</li>
+            <li>Practical tools for beginning to serve</li>
+          </ul>
+          <p class="principle">You are no longer only receiving the work. You begin learning how to give.</p>
+        </div>
+      </details>
+
+    </div>
+    <div class="land" style="margin-top:14px">
+      <span class="a">You have received.</span>
+      <span class="b">Now what will you do with it?</span>
+    </div>
+    <p class="cycle" style="margin-top:-8px">
+      <span class="step">From receiving</span>
+      <span class="pair"><span class="arw">→</span><span class="step last">To serving.</span></span>
+    </p>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 10 · WHAT THE NINETY DAYS INCLUDE ══════════ -->
+<section class="band dark">
+  <div class="bgart" style="background-image:url(assets/img/img-373d3ab644.jpg);opacity:1"></div>
+  <div class="bgtint" style="background:linear-gradient(180deg,rgba(20,8,11,.62),rgba(20,8,11,.74))"></div>
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow on-dark">X &nbsp;·&nbsp; What Your Ninety Days Include</p>
+      <h2 style="margin-top:10px">Depth, not volume.</h2>
+      <p class="quiet" style="max-width:52ch;margin:14px auto 0">A limited, high-touch cohort, because this work asks for intimacy, progression and access.</p>
+    </div>
+    <ul class="scale">
+      <li>Life Activation</li>
+      <li>Personal Healing</li>
+      <li>Empower Thyself + Initiation</li>
+      <li>The Stress Reset, a 5-part training</li>
+      <li>Spiritual Foundations</li>
+      <li>Advanced Sacred Geometry / Crystal Lightworker Training</li>
+      <li>Private Mentorship</li>
+      <li>The Practicum</li>
+      <li>The Return</li>
+      <li>Continued guidance after completion</li>
+    </ul>
+    <p class="quiet center" style="max-width:52ch;margin:0 auto;font-style:italic">The Practicum and The Return are included in the overall Calling experience.</p>
+
+    <p class="subhead">Personal healing &amp; recalibration</p>
+    <div class="trainings">
+      <article>
+        <span class="t-lab">One</span>
+        <h3>Life Activation</h3>
+        <p>An individual Life Activation session at the beginning of the journey. This begins the personal recalibration process and prepares you for the work ahead.</p>
+      </article>
+      <article>
+        <span class="t-lab">Two</span>
+        <h3>A second personal healing</h3>
+        <p>An additional healing chosen according to your individual needs and where deeper support is required.</p>
+      </article>
+      <article>
+        <span class="t-lab">Three</span>
+        <h3>The Stress Reset</h3>
+        <p>A five-part training in stress, self-regulation and inner stability. The sessions run progressively through the earlier portion of the ninety days, so you come to understand your relationship with stress, recognise your own patterns, and build real internal steadiness.</p>
+        <p style="font-style:italic">Learn the tools → practise the tools → live the tools.</p>
+      </article>
+    </div>
+    <p class="big-quote center" style="color:var(--gold-light);max-width:26ch;margin:6px auto 0">Strengthen the person who will carry the calling.</p>
+  </div>
+</section>
+
+<section class="band dark" style="padding-top:clamp(48px,5vw,72px)">
+  <div class="bgart" style="background-image:url(assets/img/img-373d3ab644.jpg);opacity:1"></div>
+  <div class="bgtint" style="background:linear-gradient(180deg,rgba(20,8,11,.74),rgba(20,8,11,.78))"></div>
+  <div class="wrap mid center stack loose rise">
+    <p class="eyebrow on-dark">The Threshold</p>
+    <h2 class="statement">Empower Thyself &amp; Initiation</h2>
+    <div class="rule on-dark center"></div>
+    <p class="lead" style="max-width:56ch;margin:0 auto">Through the two-day Empower Thyself training you receive foundational Mystery School teachings, rituals and practical tools designed to strengthen your energetic foundation and support a more balanced, conscious way of living.</p>
+    <ul class="plain" style="text-align:left;max-width:760px;margin:0 auto">
+      <li>Build greater energetic strength and resilience</li>
+      <li>Balance yourself emotionally and energetically</li>
+      <li>Work with rituals and tools that support flow and alignment</li>
+      <li>Work consciously with your own energy</li>
+      <li>Expand your capacity to hold greater light</li>
+      <li>Establish a foundation for the training that follows</li>
+    </ul>
+    <p class="quiet" style="max-width:56ch;margin:0 auto">The experience culminates in initiation into the lineage. This is where the journey moves from understanding spiritual ideas toward beginning to work with them deliberately in your own life.</p>
+    <div class="land" style="margin-top:8px">
+      <span class="a" style="color:var(--light)">You are not only learning more.</span>
+      <span class="b">You are building the capacity to hold more.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SPIRITUAL FOUNDATIONS ══════════ -->
+<section class="band">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">Spiritual Foundations Training</p>
+      <h2 style="margin-top:10px">Four trainings within the tradition.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="trainings">
+      <article>
+        <span class="t-lab">Foundation I</span>
+        <h3>Sacred Geometry</h3>
+        <p>Learn foundational principles of Sacred Geometry and how they are used within the tradition to create sacred spaces and establish intentionally held, energetically sealed environments.</p>
+        <p>You begin learning how to consciously work with the spaces in which you live, work, practise, create and serve.</p>
+      </article>
+      <article>
+        <span class="t-lab">Foundation II</span>
+        <h3>Astral Travel</h3>
+        <p>Learn structured techniques intended to expand consciousness and awareness beyond ordinary perception, and begin exploring astral dimensions within the framework of the Mystery School tradition.</p>
+        <p>The emphasis is on the expansion of awareness, consciousness and understanding.</p>
+      </article>
+      <article>
+        <span class="t-lab">Foundation III</span>
+        <h3>Magical Beings<br>of the Earth</h3>
+        <p>An exploration of the seen and unseen dimensions of life. This training invites you to deepen your awareness of the broader reality in which we live, and of the beings and intelligences described within the Mystery School teachings.</p>
+        <p>It helps you land more deeply into an understanding of both the reality we can see and the reality beyond ordinary perception.</p>
+      </article>
+      <article>
+        <span class="t-lab">Foundation IV</span>
+        <h3>Journeys<br>of the Spirit</h3>
+        <p>Seven sacred meditation journeys. Each offers a different experience and key of understanding through which you can explore yourself, consciousness and spiritual reality more deeply.</p>
+        <p>This training gives you direct experiences to contemplate and integrate, rather than more spiritual concepts to intellectually understand.</p>
+      </article>
+    </div>
+    <p class="quiet center" style="max-width:56ch;margin:0 auto">Together, these Spiritual Foundations trainings establish important groundwork for the deeper practitioner path available later.</p>
+  </div>
+</section>
+
+<!-- ══════════ ADVANCED SACRED GEOMETRY ══════════ -->
+<section class="band dark wine">
+  <div class="wrap stack loose rise">
+    <div class="splitfig">
+      <div class="ph"><img src="assets/img/img-b3a46119d1.jpg" alt="An antique brass doorknob with two skeleton keys in the lock" loading="lazy" decoding="async"></div>
+      <div class="cp stack">
+        <p class="eyebrow on-dark">Advanced Training</p>
+        <h2 class="statement">From receiving the work to beginning to serve.</h2>
+        <div class="rule on-dark"></div>
+        <p class="lead">Following the Spiritual Foundations training, you receive a separate day of Advanced Sacred Geometry Training. This is an important threshold in The Calling, because here you begin learning practical tools and services that can be offered to others.</p>
+      </div>
+    </div>
+    <div class="trainings">
+      <article>
+        <span class="t-lab">Application I</span>
+        <h3>Crystal healings</h3>
+        <p>Learn a structured crystal healing service used within the tradition to work energetically in support of mental, emotional and physical wellbeing.</p>
+      </article>
+      <article>
+        <span class="t-lab">Application II</span>
+        <h3>Crystal grids for spaces</h3>
+        <p>Learn to create energetic crystal grids for homes, offices, businesses and other environments. These grids are used within the tradition with the intention of supporting a space in holding greater light, flow, protection and energetic clarity.</p>
+      </article>
+      <article>
+        <span class="t-lab">Application III</span>
+        <h3>Additional Sacred Geometry services</h3>
+        <p>You are introduced to further applications of Sacred Geometry that can begin forming part of your service as a light worker.</p>
+      </article>
+    </div>
+    <div class="land" style="margin-top:8px">
+      <span class="a" style="color:#F6F1E9">You don't leave only knowing more.</span>
+      <span class="b">You leave beginning to know how to serve.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MENTORSHIP + INTEGRATION ══════════ -->
+<section class="band cream2">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">Private Mentorship</p>
+      <h2 style="margin-top:10px">Private guidance at the moments that matter.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <p class="lead center" style="max-width:56ch;margin:0 auto">Private mentorship happens at the key thresholds of The Calling: as you begin, as you prepare for initiation, and as the teachings meet your actual life.</p>
+    <div class="trainings">
+      <article>
+        <span class="t-lab">At the beginning</span>
+        <h3>Where you are now</h3>
+        <p>What is happening in your life? What do you feel called toward? What needs attention? What do you want these ninety days to address?</p>
+      </article>
+      <article>
+        <span class="t-lab">At the threshold</span>
+        <h3>Preparation &amp; integration</h3>
+        <p>Support leading into Empower Thyself and initiation, and the integration that follows it.</p>
+      </article>
+      <article>
+        <span class="t-lab">Through the work</span>
+        <h3>Into your actual life</h3>
+        <p>Relationships, work, habits, mind, emotion, energy, body, time, standards and service. This is where information becomes personal.</p>
+      </article>
+      <article>
+        <span class="t-lab">After completion</span>
+        <h3>Continued guidance</h3>
+        <p>Graduates are welcomed into ongoing monthly initiate calls, where you can keep receiving guidance, asking questions and integrating the teachings. Olivia continues to serve as a spiritual guide as you walk what comes next.</p>
+      </article>
+    </div>
+
+    <div class="wrap narrow" style="margin-top:14px">
+      <p class="subhead">Practice &amp; integration</p>
+      <p class="lead" style="margin-top:16px">A structured workbook accompanies the journey, with practices, reflection prompts, rituals and tools designed to bring the teachings out of the classroom and into everyday life.</p>
+      <p class="big-quote" style="color:var(--gold-deep);margin:22px 0 0">Learn the tools → Practise the tools → Live the tools</p>
+      <p class="quiet" style="margin-top:16px">The Calling is not designed to give you ninety days of information. It is designed to give you ninety days of application.</p>
+    </div>
+
+    <div class="cta" style="margin-top:6px">
+      <a class="btn solid" href="#answer">Answer the Call</a>
+      <p class="sub">Apply for The Calling →</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ THE PRACTICUM ══════════ -->
+<section class="band dark">
+  <div class="bgart" style="background-image:url(assets/img/img-373d3ab644.jpg);opacity:1"></div>
+  <div class="bgtint" style="background:linear-gradient(180deg,rgba(20,8,11,.72),rgba(20,8,11,.82))"></div>
+  <div class="frame"></div>
+  <div class="wrap mid center stack loose rise">
+    <p class="eyebrow on-dark">Following the Ninety Days</p>
+    <h2 class="statement">The Practicum</h2>
+    <div class="rule on-dark center"></div>
+    <p class="lead" style="max-width:52ch;margin:0 auto">There comes a point when learning more is no longer the next step. You have to use what you have been given.</p>
+    <p class="quiet" style="max-width:56ch;margin:0 auto">Following completion of The Calling, you enter a guided practicum designed to help you take the training into real life. It is an intentional period of practice, application, service, reflection and self-mastery.</p>
+    <div class="chips">
+      <span>Practice</span><span>Application</span><span>Service</span><span>Reflection</span><span>Self-mastery</span>
+    </div>
+    <p class="quiet" style="max-width:58ch;margin:0 auto">You practise your tools, work with people and spaces, use your rituals, apply The Stress Reset, complete service assignments, and reflect on what serving reveals about you.</p>
+    <div class="land" style="margin-top:8px">
+      <span class="a" style="color:#F6F1E9">Don't just learn it.</span>
+      <span class="b">Live it.</span>
+    </div>
+    <p class="big-quote" style="color:var(--gold-light);max-width:30ch;margin:8px auto 0">The space between the rooms is part of the training.</p>
+  </div>
+</section>
+
+<!-- ══════════ THE RETURN ══════════ -->
+<section class="band">
+  <div class="wrap mid center stack loose rise">
+    <p class="eyebrow">And Then</p>
+    <h2 style="margin-top:6px">The Return</h2>
+    <div class="rule center"></div>
+    <p class="lead" style="max-width:52ch;margin:0 auto">Following the practicum, the cohort returns for a final in-person integration gathering.</p>
+    <p class="quiet" style="max-width:54ch;margin:0 auto">It is a place to reflect on what happened when the work entered real life: what held, what was hard, what changed, and what is now yours to do next.</p>
+    <div class="land" style="margin-top:6px">
+      <span class="a">Enter the room. Return to life.</span>
+      <span class="b">Come back different.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ THE PATH CONTINUES ══════════ -->
+<section class="band cream2">
+  <div class="wrap mid stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">The Path Continues</p>
+      <h2 style="margin-top:10px">The 90 days end.<br>The application begins.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <p class="lead center" style="max-width:58ch;margin:0 auto">After the ninety-day intensive you enter The Practicum. After the practicum, the cohort returns for The Return. After that, graduates are welcomed into ongoing monthly initiate calls and continued spiritual guidance.</p>
+
+    <div class="center stack tight" style="margin-top:26px">
+      <p class="subhead" style="justify-content:center">A clear path into further healer training</p>
+    </div>
+    <p class="lead center" style="max-width:58ch;margin:0 auto">By completing the required foundational training within The Calling, those who want to continue developing as professional light workers and healers will have completed the prerequisite training needed to move into Healers Academy with the Modern Mystery School. Once those prerequisites are complete, Healers Academy is available as the next stage of training for those who choose to continue.</p>
+    <p class="quiet center" style="max-width:56ch;margin:0 auto">At Healers Academy, students go on to learn practitioner modalities including Life Activation, Aura Healing, MAX Meditation facilitation, and further healing work within the lineage.</p>
+    <p class="quiet center" style="max-width:56ch;margin:0 auto;font-style:italic">Healers Academy is a separate training and is not included within The Calling. The Calling provides the foundational training required to access that next stage of the path.</p>
+    <div class="land" style="margin-top:8px">
+      <span class="a">The Calling has a completion.</span>
+      <span class="b">The path does not.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ INTERLUDE · THE COHORT ══════════ -->
+<section class="band plateband dark">
+  <div class="interlude">
+    <img class="bg" style="object-position:50% 24%" src="assets/img/img-44e56dd451.jpg" alt="Women laughing together, holding white roses, in a deep red room" loading="lazy" decoding="async">
+    <div class="veil" style="background:linear-gradient(180deg,rgba(30,15,19,.44),rgba(30,15,19,.74))"></div>
+    <div class="frame"></div>
+    <div class="inner">
+      <p class="eyebrow on-dark">The Cohort</p>
+      <p class="say">You will not walk this ninety days alone.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 11 · STORIES ══════════ -->
+<section class="band">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">XI &nbsp;·&nbsp; Stories</p>
+      <h2 style="margin-top:10px">What the work has meant.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <!-- DESIGNER: this is the testimonial framework, ready for real stories.
+         One featured story, then supporting stories. Video where available,
+         real photographs and names where consent permits. -->
+    <div class="stories">
+      <div class="story headline">
+        <div>
+          <span class="s-lab">Featured story &nbsp;·&nbsp; From seeking → direction</span>
+          <p class="quiet" style="font-family:var(--serif);font-style:italic">Video or photograph, with the participant's own words.</p>
+        </div>
+        <dl>
+          <dt>Before</dt><dd>Where were they before the work?</dd>
+          <dt>Experience</dt><dd>What did they actually experience?</dd>
+          <dt>Shift</dt><dd>What changed, internally or practically?</dd>
+          <dt>Now</dt><dd>What are they doing differently?</dd>
+        </dl>
+      </div>
+      <div class="story">
+        <span class="s-lab">From healing → development</span>
+        <dl>
+          <dt>Before</dt><dd>Story to be added.</dd>
+          <dt>Shift</dt><dd>Story to be added.</dd>
+        </dl>
+      </div>
+      <div class="story">
+        <span class="s-lab">From called → serving</span>
+        <dl>
+          <dt>Before</dt><dd>Story to be added.</dd>
+          <dt>Shift</dt><dd>Story to be added.</dd>
+        </dl>
+      </div>
+      <div class="story">
+        <span class="s-lab">Empower Thyself &amp; initiation</span>
+        <dl>
+          <dt>Before</dt><dd>Story to be added.</dd>
+          <dt>Shift</dt><dd>Story to be added.</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="cta" style="margin-top:8px">
+      <a class="btn solid" href="#answer">Answer the Call</a>
+      <p class="sub">Apply for The Calling →</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 12 · WHY AN INITIATORY PATH ══════════ -->
+<section class="band dark">
+  <div class="wrap stack loose rise">
+    <div class="splitfig rev">
+      <div class="ph"><img src="assets/img/img-1349dc38ac.jpg" alt="Gilded baroque columns and a painted ceiling" loading="lazy" decoding="async"></div>
+      <div class="cp stack">
+        <p class="eyebrow on-dark">XII &nbsp;·&nbsp; Why an Initiatory Path</p>
+        <h2 class="statement">There is a difference between collecting spiritual information and walking a spiritual path.</h2>
+        <div class="rule on-dark"></div>
+        <p class="quiet">A path has sequence, structure, practice, training, teachers, progression, standards and responsibility.</p>
+        <p class="lead">Within an initiatory tradition you do not simply learn new ideas. Initiation, lineage, progressive training, ancient teachings, spiritual tools, direct experience and practice all ask something of the person receiving them.</p>
+        <p class="big-quote" style="color:var(--light);max-width:20ch;margin:0">They are asked to develop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 13 · A NOTE FROM OLIVIA ══════════ -->
+<section class="band cream2">
+  <div class="wrap rise">
+    <div class="founder">
+      <div class="cp">
+        <p class="eyebrow">XIII &nbsp;·&nbsp; A Note From Olivia</p>
+        <h2 class="name">Olivia<em>Carli</em></h2>
+        <p>I know what it is to feel that persistent sense that life is asking something more of you. And I also know how easy it is to spend years trying to understand the call without ever building a life capable of answering it.</p>
+        <p>My work isn't about giving you an identity, declaring your purpose for you, or convincing you that you're special. It's about helping you know yourself more deeply, develop greater command of yourself, receive real spiritual training and become more useful with what you've been given.</p>
+        <p>I teach within an initiatory tradition because I believe deeply in paths that have structure, progression, standards and responsibility. And I created The Calling because there are people standing at a very specific threshold: <em>no longer content simply to seek, not yet certain how to serve.</em></p>
+        <p>If that's where you are, I'd be honoured to meet you there.</p>
+        <p class="credline">Guide · Teacher · Healer<br>Certified by the Modern Mystery School<br>Lineage of King Salomon</p>
+      </div>
+      <div class="ph"><img src="assets/img/img-18f050d25b.jpg" alt="Olivia Carli walking through a candlelit room" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 14 · WHO THIS IS FOR ══════════ -->
+<section class="band cream2">
+  <div class="wrap stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">XIV &nbsp;·&nbsp; Discernment</p>
+      <h2 style="margin-top:10px">Is this your next step?</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="fit">
+      <div class="yes">
+        <h3>The Calling may be for you if</h3>
+        <ul>
+          <li><span class="mk">✦</span><span>You know your life is meant to mean something.</span></li>
+          <li><span class="mk">✦</span><span>You're drawn toward healing, leadership, contribution or service.</span></li>
+          <li><span class="mk">✦</span><span>You've explored personal development or spirituality and are ready to go deeper.</span></li>
+          <li><span class="mk">✦</span><span>You want structure rather than more random information.</span></li>
+          <li><span class="mk">✦</span><span>You are prepared to take responsibility for your life.</span></li>
+          <li><span class="mk">✦</span><span>You want training, not merely inspiration.</span></li>
+          <li><span class="mk">✦</span><span>You want greater self-mastery, and you want what is within you to become useful to others.</span></li>
+        </ul>
+      </div>
+      <div class="no">
+        <h3>This is probably not for you if you're looking for</h3>
+        <ul>
+          <li><span class="mk">·</span><span>A quick spiritual high.</span></li>
+          <li><span class="mk">·</span><span>Another modality to collect.</span></li>
+          <li><span class="mk">·</span><span>Someone to tell you exactly who you are or what your purpose is.</span></li>
+          <li><span class="mk">·</span><span>A certification without the responsibility of personal development.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="land" style="margin-top:14px">
+      <span class="a">You don't simply want to discover who you are.</span>
+      <span class="b">You want to develop who you are, so what is within you can become useful to others.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ THE SCALE OF THE NINETY DAYS ══════════ -->
+<section class="band dark wine">
+  <div class="bgart" style="background-image:url(assets/img/img-5ebf24d8ff.jpg);opacity:1"></div>
+  <div class="bgtint" style="background:linear-gradient(180deg,rgba(20,8,11,.46),rgba(20,8,11,.70))"></div>
+  <div class="frame"></div>
+  <div class="wrap mid stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow on-dark">The Scale of It</p>
+      <h2 class="statement" style="margin-top:10px">This is not access to a digital course.</h2>
+      <div class="rule on-dark center" style="margin:18px auto 0"></div>
+    </div>
+    <p class="quiet center" style="max-width:44ch;margin:0 auto">The Calling includes:</p>
+    <ul class="scale">
+      <li>Life Activation</li>
+      <li>Personal healing</li>
+      <li>Empower Thyself + initiation</li>
+      <li>The Stress Reset, a 5-part training</li>
+      <li>Spiritual Foundations</li>
+      <li>Advanced Sacred Geometry</li>
+      <li>Private mentorship</li>
+      <li>The Practicum</li>
+      <li>The Return</li>
+      <li>Continued guidance after completion</li>
+    </ul>
+    <div class="land" style="margin-top:10px">
+      <span class="a" style="color:#F6F1E9">Ninety days of experience, practice, training and integration.</span>
+      <span class="b">Not simply more information to consume.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 16 · FAQ ══════════ -->
+<section class="band">
+  <div class="wrap mid stack loose rise">
+    <div class="center stack tight">
+      <p class="eyebrow">XV &nbsp;·&nbsp; Questions</p>
+      <h2 style="margin-top:10px">Before you apply.</h2>
+      <div class="rule center" style="margin:18px auto 0"></div>
+    </div>
+    <div class="faq">
+      <details class="qa">
+        <summary>Is The Calling 90 days or longer?<span class="tog">+</span></summary>
+        <div class="ans"><p>The core Calling journey takes place across 90 days. Following completion, participants enter a guided practicum and then return for a final in-person integration gathering.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What happens after the 90 days?<span class="tog">+</span></summary>
+        <div class="ans"><p>Participants move into The Practicum, then return for a final integration gathering. Afterward, ongoing monthly initiate calls and continued spiritual guidance are available.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Is the practicum included?<span class="tog">+</span></summary>
+        <div class="ans"><p>Yes. The Practicum and The Return are included in the overall experience.</p></div>
+      </details>
+      <details class="qa">
+        <summary>How long is the practicum?<span class="tog">+</span></summary>
+        <div class="ans"><p>Approximately one month.</p></div>
+      </details>
+      <details class="qa">
+        <summary>When does the next cohort begin?<span class="tog">+</span></summary>
+        <div class="ans"><p>The Calling opens January 2027.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Do I need to already know what my calling is?<span class="tog">+</span></summary>
+        <div class="ans"><p>No. Most people arrive knowing only that they are here for something more. The Calling is designed to develop the self-knowledge and awareness required to begin recognising your own direction, rather than to have someone declare a purpose for you.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Is The Calling only for people who want to become healers?<span class="tog">+</span></summary>
+        <div class="ans"><p>No. The Calling does not require anyone to become a healer. Service may eventually express itself through healing, leadership, business, teaching, creativity, family, community, entrepreneurship, or something entirely different. For those who do feel drawn toward the healer's path, the foundational training received here is the prerequisite for continuing.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Do I need previous spiritual experience?<span class="tog">+</span></summary>
+        <div class="ans"><p>No previous training is required. Many participants have explored personal development or spirituality for years; others are earlier in the journey. What matters more is readiness to take responsibility and to work.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What if I've already done a lot of healing or personal development?<span class="tog">+</span></summary>
+        <div class="ans"><p>That is often exactly who The Calling is for. Many people arrive having read, healed and studied for years, and are ready for something with sequence, training and progression rather than another experience to add to the collection. The ninety days are structured to turn what you have already gathered into capacity.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What is Life Activation?<span class="tog">+</span></summary>
+        <div class="ans"><p>Life Activation is a one-to-one session within the Modern Mystery School tradition, and is one of the first personal experiences included in The Calling. Within this programme it is used as part of the initial recalibration process and as preparation for the training that follows.</p><p>It is intended to support greater alignment, energetic vitality, awareness and connection to your own potential. The session is received individually, before the deeper initiatory work begins.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What is Empower Thyself?<span class="tog">+</span></summary>
+        <div class="ans"><p>Empower Thyself is a two-day foundational Mystery School training and a central threshold within The Calling. Participants receive ancient teachings, rituals and practical spiritual tools designed to help strengthen their energetic foundation, support greater emotional and energetic balance, and work more consciously with their own energy.</p><p>The tools are intended to support greater flow and alignment, build energetic strength and expand your capacity and ability to hold greater light. The training culminates in initiation into the lineage, and establishes an important foundation for the deeper spiritual training that follows.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What is The Stress Reset?<span class="tog">+</span></summary>
+        <div class="ans"><p>A five-part training in stress, self-regulation and inner stability. The sessions run progressively through the earlier portion of the ninety days, rather than once a month, so the tools are learned, practised and then lived while the rest of the training is underway.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What are the Spiritual Foundations trainings?<span class="tog">+</span></summary>
+        <div class="ans"><p>Sacred Geometry, Astral Travel, Magical Beings of the Earth, and Journeys of the Spirit. Together they expand awareness, deepen spiritual understanding and develop practical skills within the tradition. Each is described in full further up this page.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What is Advanced Sacred Geometry Training?<span class="tog">+</span></summary>
+        <div class="ans"><p>A separate day of training that follows the Spiritual Foundations. It is the threshold where you move from primarily receiving the work toward learning practical tools and services that can be offered to others as a Crystal Lightworker: crystal healings, crystal grids for homes and other environments, and further Sacred Geometry applications.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Will I be able to offer services after The Calling?<span class="tog">+</span></summary>
+        <div class="ans"><p>You will have begun learning practical services through Advanced Sacred Geometry training, and The Practicum is where you actually put them to use. What you choose to offer, and how, is something the mentorship helps you think through.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Does completing The Calling make me a certified healer?<span class="tog">+</span></summary>
+        <div class="ans"><p>No. The Calling gives you foundational training, initiation and the beginning of practical service. Practitioner certification comes through Healers Academy, which is the next stage of the path.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What is Healers Academy?<span class="tog">+</span></summary>
+        <div class="ans"><p>Healers Academy is the next level of practitioner training within the Modern Mystery School, for those who want to continue developing as healers and light workers. Students who have completed the required prerequisite training continue into Healers Academy, where they learn practitioner modalities including Life Activation, Aura Healing, MAX Meditation facilitation and further healing work within the lineage.</p><p>Healers Academy itself is not included within The Calling. The Calling provides the foundational prerequisite training needed to access this next stage.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Am I guaranteed access to Healers Academy after The Calling?<span class="tog">+</span></summary>
+        <div class="ans"><p>Yes, once the required prerequisite training has been completed. You do not need to apply or be accepted. Once those prerequisites are complete, participants who wish to continue can simply sign up for Healers Academy as the next stage of their Mystery School training.</p><p>Healers Academy is a separate training and is not included in The Calling.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What if I've already completed Empower Thyself or some of the foundational trainings?<span class="tog">+</span></summary>
+        <div class="ans"><p>That does not automatically mean The Calling isn't appropriate for you. Your application is reviewed individually, so we can understand where you currently are on the path, what training you have already completed, and whether the overall experience is still the right next step. Anything that needs adjusting is discussed directly.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Is The Calling an online programme?<span class="tog">+</span></summary>
+        <div class="ans"><p>No. The Calling is built around repeated in-person experiences. Private mentorship and some integration may happen online, but direct experience is intentionally woven throughout the entire journey.</p><p>The rhythm is: enter the room → return to life → come back different. You repeatedly return in person for healing, initiation, training, practice and direct experience. Between those experiences you take what you've received back into your everyday life, practise, integrate and receive mentorship.</p><p>The Calling is not designed as another twelve-week programme you consume behind a screen. It is something you participate in and experience.</p></div>
+      </details>
+      <details class="qa">
+        <summary>How much of The Calling is in person?<span class="tog">+</span></summary>
+        <div class="ans"><p>The in-person experiences include Empower Thyself and initiation, The Stress Reset, the Spiritual Foundations trainings, the Advanced Sacred Geometry day, your personal healing sessions, and The Return at the end of the practicum.</p><p>Private mentorship and integration are woven between them. This repeated rhythm of receiving, living, integrating and returning is an intentional part of The Calling.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Where does the in-person training take place?<span class="tog">+</span></summary>
+        <div class="ans"><p>The in-person components take place in the Toronto / Etobicoke area. Exact locations and dates are provided to participants.</p></div>
+      </details>
+      <details class="qa">
+        <summary>How much time should I expect to devote each week?<span class="tog">+</span></summary>
+        <div class="ans"><p>The Calling is designed to be integrated into real life, but it does require meaningful participation. Across the ninety days there are scheduled in-person training days, The Stress Reset sessions, private mentorship, personal healing experiences, personal practices, reflection and workbook integration, followed by the practicum.</p><p>Expect to make consistent space for the work rather than treating it as something to complete passively in the background. The exact calendar and time commitments are provided before enrolment.</p></div>
+      </details>
+      <details class="qa">
+        <summary>How many people will be accepted?<span class="tog">+</span></summary>
+        <div class="ans"><p>The Calling is intentionally limited to ten people per cohort. The small cohort allows the experience to remain personal, intimate and high-touch.</p><p>Because of the nature of the work, the level of in-person participation and the mentorship involved, the application process helps determine whether The Calling is aligned with where each individual currently is and what they are looking for. Only ten participants enter each cohort.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 17 · THE APPLICATION ══════════ -->
+<section class="band dark" id="answer">
+  <div class="wrap stack loose rise">
+    <div class="splitfig">
+      <div class="ph"><img src="assets/img/img-be1187073c.jpg" alt="A finger pressing a brass doorbell marked your calling" loading="lazy" decoding="async"></div>
+      <div class="cp stack">
+        <p class="eyebrow on-dark">XVI &nbsp;·&nbsp; Answer the Call</p>
+        <h2 class="statement">The Calling is not an open-enrolment course.</h2>
+        <div class="rule on-dark"></div>
+        <p class="lead">Because the work is personal, high-touch and initiatory, the process begins with an application. Only ten people enter each cohort.</p>
+      </div>
+    </div>
+    <div class="apply">
+      <div class="s"><h3>The Application</h3><p>Tell Olivia a little about where you are, what you're reaching toward and why The Calling has caught your attention.</p></div>
+      <div class="s"><h3>The Conversation</h3><p>If it appears that the programme may be aligned, you'll be invited into a private conversation.</p></div>
+      <div class="s"><h3>Discernment</h3><p>That conversation gives us the opportunity to explore where you are, answer your questions, discuss the full details of the experience, and discern together whether The Calling is the right next step.</p></div>
+    </div>
+    <div class="cta" style="margin-top:10px">
+      <!-- DESIGNER: replace href="#" with the application form URL.
+
+           APPLICATION QUESTIONS (for the form itself, not this page):
+             Name · Email · Phone number · Location
+             What is happening in your life right now that has you considering The Calling?
+             What do you feel called toward?
+             What have you already explored within spirituality or personal development?
+             Have you received Life Activation?
+             Have you completed Empower Thyself?
+             Have you completed any Mystery School foundational trainings?
+             Where do you currently feel stuck?
+             What do you hope would be different ninety days from now?
+             How do you currently imagine service or contribution fitting into your life?
+             Why now?
+             Are you able to participate in the required in-person components?
+             Anything else Olivia should know before speaking with you?
+      -->
+      <a class="btn solid" href="#">Apply for The Calling</a>
+      <p class="fine">The Calling opens January 2027 &nbsp;·&nbsp; Ten places per cohort</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SECTION 18 · FINAL CLOSE ══════════ -->
+<section class="band dark wine">
+  <div class="bgart" style="background-image:url(assets/img/img-f7f8783a99.jpg);opacity:1;background-position:50% 58%"></div>
+  <div class="bgtint" style="background:radial-gradient(ellipse at 50% 46%,rgba(20,8,11,.78),rgba(20,8,11,.42) 66%),linear-gradient(180deg,rgba(20,8,11,.50),rgba(20,8,11,.80))"></div>
+  <div class="frame"></div>
+  <div class="wrap mid center stack loose rise">
+    <p class="eyebrow on-dark">The Final Invitation</p>
+    <h2 class="statement" style="max-width:24ch;margin-left:auto;margin-right:auto">One day you'll look back on what you did with the life you were given.</h2>
+    <div class="rule on-dark center"></div>
+    <p class="lead" style="max-width:46ch;margin:0 auto">May you be able to say:</p>
+    <p class="big-quote" style="color:var(--light);max-width:26ch;margin:0 auto">I used what I was given. I developed my potential. I loved people. I helped. I created something. I became someone I respected. I didn't sit on the sidelines of my own life.</p>
+    <div class="land" style="margin-top:6px">
+      <span class="a" style="color:#F6F1E9">You feel the call.</span>
+      <span class="b">Now become capable of answering it.</span>
+    </div>
+    <p class="kicker" style="margin:0">90 Days &nbsp;·&nbsp; Healing &nbsp;·&nbsp; Initiation &nbsp;·&nbsp; Training &nbsp;·&nbsp; Self-Mastery &nbsp;·&nbsp; Service</p>
+    <p class="big-quote" style="color:var(--light);max-width:22ch;margin:0 auto">Cross the threshold. Practise what you have received. Return different.</p>
+    <div class="cta">
+      <a class="btn solid" href="#answer">Answer the Call</a>
+      <p class="sub">Apply for The Calling →</p>
+      <p class="fine">The Calling opens January 2027</p>
+    </div>
+  </div>
+</section>
+
 </div>
 </main>
+
 <footer class="site">
 <div class="wrap">
 <img alt="Olivia Carli monogram" class="fmono" src="assets/img/img-8351ab5d03.png"/ loading="lazy" decoding="async">
@@ -2993,6 +4651,39 @@ a:focus-visible,button:focus-visible{outline-color:var(--rose)}
   }
 })();
 
+</script>
+<script>
+/* The Calling: scroll reveal for .rise blocks */
+(function(){
+  var scope = document.getElementById('calling');
+  if(!scope) return;
+  var els = scope.querySelectorAll('.rise');
+  if(!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    Array.prototype.forEach.call(els, function(el){ el.classList.add('seen'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('seen'); io.unobserve(e.target); }
+    });
+  },{rootMargin:'0px 0px -8% 0px',threshold:0.06});
+  Array.prototype.forEach.call(els, function(el){ io.observe(el); });
+})();
+
+/* The Calling: every CTA scrolls to the application section */
+(function(){
+  var links = document.querySelectorAll('#calling a[href^="#"]');
+  Array.prototype.forEach.call(links, function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href').slice(1);
+      if(!id) return;                       /* href="#" is the form placeholder */
+      var t = document.getElementById(id);
+      if(!t) return;
+      e.preventDefault();
+      t.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+})();
 </script>
 </body>
 </html>
