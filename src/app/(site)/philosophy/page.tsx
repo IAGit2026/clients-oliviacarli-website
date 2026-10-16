@@ -4,7 +4,7 @@ import { buildPageMetadata } from "@/lib/page-metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "Philosophy | Olivia Carli",
   description: "The philosophy behind Olivia Carli's work — wisdom, self-mastery, and living a meaningful life.",
-  publicUrl: "/philosophy.html",
+  publicUrl: "/philosophy",
   shareImagePath: "/assets/img/img-1b1c4c6787.jpg",
 });
 
@@ -110,7 +110,7 @@ export default function PhilosophyPage() {
             </div>
             <div className="callout">
               <p className="c-line">These are the principles. The Calling is where they become practice.</p>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function PhilosophyPage() {
               </p>
             </div>
             <div style={{ marginTop: "36px" }}>
-              <a className="btn on-dark" data-go="work" href="the-path.html">Begin Your Journey</a> &nbsp; <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn on-dark" data-go="work" href="/the-path">Begin Your Journey</a> &nbsp; <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>

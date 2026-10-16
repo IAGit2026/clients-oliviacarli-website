@@ -4,7 +4,7 @@ import { buildPageMetadata } from "@/lib/page-metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "The Lineage | Olivia Carli",
   description: "The Lineage — the tradition and teachers behind Olivia Carli's work.",
-  publicUrl: "/the-lineage.html",
+  publicUrl: "/the-lineage",
   shareImagePath: "/assets/img/img-3587fdf669.jpg",
 });
 
@@ -133,7 +133,7 @@ export default function TheLineagePage() {
             </p>
             <div className="callout">
               <p className="c-line">This lineage is not a museum. It is a path you can walk.</p>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
               <p className="c-note">90 Days &nbsp;·&nbsp; 13 In-Person Experiences &nbsp;·&nbsp; 10 People Per Cohort</p>
             </div>
           </div>
@@ -256,7 +256,7 @@ export default function TheLineagePage() {
             </p>
             <p className="eyebrow on-dark" style={{ marginTop: "26px" }}>Olivia Carli</p>
             <div style={{ marginTop: "36px" }}>
-              <a className="btn on-dark" data-go="work" href="the-path.html">Begin Your Journey</a> &nbsp; <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn on-dark" data-go="work" href="/the-path">Begin Your Journey</a> &nbsp; <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>

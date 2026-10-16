@@ -4,7 +4,7 @@ import { buildPageMetadata } from "@/lib/page-metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "Empower Thyself | Olivia Carli",
   description: "Empower Thyself — begin the journey of self-knowledge with Olivia Carli.",
-  publicUrl: "/empower-thyself.html",
+  publicUrl: "/empower-thyself",
   shareImagePath: "/assets/img/img-2bea070edb.jpg",
 });
 
@@ -259,7 +259,7 @@ export default function EmpowerThyselfPage() {
             </div>
             <div className="callout">
               <p className="c-line">Empower Thyself is one doorway. The Calling is the ninety-day journey it opens into.</p>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
               <p className="c-note">90 Days &nbsp;·&nbsp; 13 In-Person Experiences &nbsp;·&nbsp; 10 People Per Cohort</p>
             </div>
           </div>
@@ -358,7 +358,7 @@ export default function EmpowerThyselfPage() {
               There is no expectation to continue.<br /> Only an open invitation.<br /> If your heart feels called to keep walking, the path is here.
             </p>
             <div style={{ marginTop: "34px" }}>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>
@@ -401,7 +401,7 @@ export default function EmpowerThyselfPage() {
             </p>
             <div className="callout">
               <p className="c-line">If you feel it, the next step is a conversation.</p>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>

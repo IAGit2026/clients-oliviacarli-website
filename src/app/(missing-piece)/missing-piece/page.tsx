@@ -6,7 +6,7 @@ export const metadata: Metadata = buildPageMetadata({
   title: "The Missing Piece — Olivia Carli",
   description:
     "Take the Missing Piece Assessment with Olivia Carli — discover your archetype, your greatest strength and the area of life asking for your attention.",
-  publicUrl: "/missing-piece.html",
+  publicUrl: "/missing-piece",
   shareImagePath: "/assets/missing-piece/mp-8213236a.jpg",
   shareTitle: "The Missing Piece Assessment — Olivia Carli",
   shareDescription: "Discover your archetype, your greatest strength and your growth opportunity. About 4 minutes.",

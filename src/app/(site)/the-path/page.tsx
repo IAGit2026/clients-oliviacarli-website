@@ -4,7 +4,7 @@ import { buildPageMetadata } from "@/lib/page-metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "The Path | Olivia Carli",
   description: "The Path — the ways to work with Olivia Carli on your journey of awakening and self-mastery.",
-  publicUrl: "/the-path.html",
+  publicUrl: "/the-path",
   shareImagePath: "/assets/img/img-2c9fd9de9c.jpg",
 });
 
@@ -56,7 +56,7 @@ export default function ThePathPage() {
               </div>
             </div>
             <div style={{ marginTop: "42px" }}>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>
@@ -264,7 +264,7 @@ export default function ThePathPage() {
             <p className="lead narrow" style={{ marginBottom: "28px" }}>
               The Calling is a place to begin: a ninety-day path for those ready to move from seeking into training and service.
             </p>
-            <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+            <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
           </div>
         </section>
         <section className="band dark wine">
@@ -281,7 +281,7 @@ export default function ThePathPage() {
               This is the Great Work. And every path begins with a single step.
             </p>
             <div style={{ marginTop: "30px" }}>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>

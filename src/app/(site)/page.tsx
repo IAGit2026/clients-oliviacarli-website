@@ -107,7 +107,7 @@ export default function AboutPage() {
             <p className="sign" style={{ color: "var(--rose-light)", marginTop: "26px" }}>Love Always, Olivia</p>
             <div className="callout">
               <p className="c-line">If you're standing at that threshold, there is a path.</p>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
               <p className="c-note">90 Days &nbsp;·&nbsp; 13 In-Person Experiences &nbsp;·&nbsp; 10 People Per Cohort</p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
               <div className="item" style={{ color: "var(--ink)" }}>Every life is orbiting around something. Choose wisely.</div>
             </div>
             <div className="center" style={{ marginTop: "46px" }}>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>

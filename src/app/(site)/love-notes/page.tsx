@@ -4,7 +4,7 @@ import { buildPageMetadata } from "@/lib/page-metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "Love Notes | Olivia Carli",
   description: "Love Notes — words from those who have worked with Olivia Carli.",
-  publicUrl: "/love-notes.html",
+  publicUrl: "/love-notes",
   shareImagePath: "/assets/img/img-6303c0ce72.jpg",
 });
 
@@ -99,7 +99,7 @@ export default function LoveNotesPage() {
             </div>
             <div className="callout">
               <p className="c-line">Every one of these began with a single conversation.</p>
-              <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>
@@ -178,7 +178,7 @@ export default function LoveNotesPage() {
               </div>
             </div>
             <div className="center" style={{ marginTop: "20px" }}>
-              <a className="btn" data-go="work" href="the-path.html">Begin Your Journey</a> &nbsp; <a className="btn solid" data-go="calling" href="the-calling.html">Answer the Call</a>
+              <a className="btn" data-go="work" href="/the-path">Begin Your Journey</a> &nbsp; <a className="btn solid" data-go="calling" href="/the-calling">Answer the Call</a>
             </div>
           </div>
         </section>

@@ -26,24 +26,25 @@ truth; never edit the copies in `public/`.
 Other scripts: `npm run lint` (ESLint) and `npm run type-check` (`tsc --noEmit`).
 
 ## Pages / URLs
-Public URLs are unchanged from the original site (`.html` URLs, home at `/`).
+Public URLs drop the `.html` ending (canonical tags, the sitemap and links use `/philosophy`, not `/philosophy.html`). The export still writes `out/philosophy.html`, so `/philosophy` resolves on GitHub Pages and on Cloudflare Pages, and old `.html` links keep working: GitHub Pages serves both forms, and Cloudflare Pages redirects `/philosophy.html` to `/philosophy` with a 308.
 
 | Nav label | Route in `src/app` | Public URL |
 |---|---|---|
 | About (Home) | `(site)/page.tsx` | `/` |
-| Philosophy | `(site)/philosophy` | `/philosophy.html` |
-| The Lineage | `(site)/the-lineage` | `/the-lineage.html` |
-| The Path | `(site)/the-path` | `/the-path.html` |
-| Love Notes | `(site)/love-notes` | `/love-notes.html` |
-| The Calling | `(site)/the-calling` | `/the-calling.html` |
-| Empower Thyself | `(site)/empower-thyself` | `/empower-thyself.html` |
-| The Missing Piece (not in nav or sitemap) | `(missing-piece)/missing-piece` | `/missing-piece.html` |
+| Philosophy | `(site)/philosophy` | `/philosophy` |
+| The Lineage | `(site)/the-lineage` | `/the-lineage` |
+| The Path | `(site)/the-path` | `/the-path` |
+| Love Notes | `(site)/love-notes` | `/love-notes` |
+| The Calling | `(site)/the-calling` | `/the-calling` |
+| Empower Thyself | `(site)/empower-thyself` | `/empower-thyself` |
+| The Missing Piece (not in nav or sitemap) | `(missing-piece)/missing-piece` | `/missing-piece` |
 
 `trailingSlash` is off, so Next.js writes `out/philosophy.html` for the `/philosophy`
-route and the `.html` URLs resolve on any static host. Per-page title, description,
-canonical, Open Graph and Twitter tags are set with the Next.js `metadata` export
-(`src/lib/page-metadata.ts`). `robots.txt` and `sitemap.xml` are generated at build time
-from `src/app/robots.ts` and `src/app/sitemap.ts`.
+route, and the public URL is `/philosophy`. Per-page title, description, canonical, Open
+Graph and Twitter tags are set with the Next.js `metadata` export
+(`src/lib/page-metadata.ts`), so canonicals and `og:url` carry the public URL.
+`robots.txt` and `sitemap.xml` are generated at build time from `src/app/robots.ts` and
+`src/app/sitemap.ts`.
 
 ## Project layout
 - `src/app/(site)` — the seven site pages, sharing `src/styles/site-styles.css`, the header and the footer (`src/components/site-chrome.tsx`).

@@ -6,7 +6,7 @@ import "@/styles/the-calling-styles.css";
 export const metadata: Metadata = buildPageMetadata({
   title: "The Calling | Olivia Carli",
   description: "The Calling — answer the call to a deeper, more meaningful life with Olivia Carli.",
-  publicUrl: "/the-calling.html",
+  publicUrl: "/the-calling",
   shareImagePath: "/assets/img/img-e516ee97e0.jpg",
 });
 
