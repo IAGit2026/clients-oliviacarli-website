@@ -28,7 +28,7 @@ export default function LinkPage() {
         </div>
 
         <p className="link-page-eyebrow">Guide · Teacher · Healer</p>
-        <h1 className="link-page-name">Olivia Carli</h1>
+        <h1 className="link-page-name">Links &amp; Offerings</h1>
         <p className="link-page-tagline">
           Helping people cultivate wisdom, master themselves, and create meaningful lives.
         </p>
