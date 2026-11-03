@@ -5,5 +5,7 @@ import { siteNavigationItems } from "@/lib/site-navigation";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return siteNavigationItems.map((item) => ({ url: `${siteOrigin}${item.publicUrl}` }));
+  return [...siteNavigationItems.map((item) => item.publicUrl), "/links"].map((publicUrl) => ({
+    url: `${siteOrigin}${publicUrl}`,
+  }));
 }
